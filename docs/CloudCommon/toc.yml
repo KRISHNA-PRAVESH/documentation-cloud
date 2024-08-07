@@ -1,0 +1,272 @@
+### YamlMime:TableOfContent
+- name: CloudCommon.CallContext.Implementations
+  href: CloudCommon.CallContext.Implementations.md
+  items:
+  - name: Classes
+  - name: RunTimeCallContext<T>
+    href: CloudCommon.CallContext.Implementations.RunTimeCallContext-1.md
+  - name: RunTimeCallContextHolder<T>
+    href: CloudCommon.CallContext.Implementations.RunTimeCallContextHolder-1.md
+- name: CloudCommon.Configuration.Implementations
+  href: CloudCommon.Configuration.Implementations.md
+  items:
+  - name: Classes
+  - name: AppSettings
+    href: CloudCommon.Configuration.Implementations.AppSettings.md
+- name: CloudCommon.Configuration.Interface
+  href: CloudCommon.Configuration.Interface.md
+  items:
+  - name: Interfaces
+  - name: IAppSettings
+    href: CloudCommon.Configuration.Interface.IAppSettings.md
+- name: CloudCommon.Constants
+  href: CloudCommon.Constants.md
+  items:
+  - name: Enums
+  - name: AccountOnHoldReason
+    href: CloudCommon.Constants.AccountOnHoldReason.md
+  - name: AuthStatusCode
+    href: CloudCommon.Constants.AuthStatusCode.md
+  - name: AuthType
+    href: CloudCommon.Constants.AuthType.md
+  - name: ComparisonOperator
+    href: CloudCommon.Constants.ComparisonOperator.md
+  - name: DatePeriod
+    href: CloudCommon.Constants.DatePeriod.md
+  - name: Days
+    href: CloudCommon.Constants.Days.md
+  - name: DirectoryType
+    href: CloudCommon.Constants.DirectoryType.md
+  - name: FileExtension
+    href: CloudCommon.Constants.FileExtension.md
+  - name: Months
+    href: CloudCommon.Constants.Months.md
+  - name: OnHoldTime
+    href: CloudCommon.Constants.OnHoldTime.md
+  - name: PeriodType
+    href: CloudCommon.Constants.PeriodType.md
+  - name: ProjectionType
+    href: CloudCommon.Constants.ProjectionType.md
+  - name: UnitOfDateAndTime
+    href: CloudCommon.Constants.UnitOfDateAndTime.md
+- name: CloudCommon.ContractResolvers
+  href: CloudCommon.ContractResolvers.md
+  items:
+  - name: Classes
+  - name: IgnoreNullAndMissingResolver
+    href: CloudCommon.ContractResolvers.IgnoreNullAndMissingResolver.md
+- name: CloudCommon.Delegation
+  href: CloudCommon.Delegation.md
+  items:
+  - name: Classes
+  - name: TenantDelegationContext
+    href: CloudCommon.Delegation.TenantDelegationContext.md
+- name: CloudCommon.Delegation.Interfaces
+  href: CloudCommon.Delegation.Interfaces.md
+  items:
+  - name: Interfaces
+  - name: ITenantDelegationModel
+    href: CloudCommon.Delegation.Interfaces.ITenantDelegationModel.md
+- name: CloudCommon.Delegation.Models
+  href: CloudCommon.Delegation.Models.md
+  items:
+  - name: Classes
+  - name: TenantDelegationModel
+    href: CloudCommon.Delegation.Models.TenantDelegationModel.md
+- name: CloudCommon.Enums
+  href: CloudCommon.Enums.md
+  items:
+  - name: Enums
+  - name: ApiResponseEnum
+    href: CloudCommon.Enums.ApiResponseEnum.md
+  - name: AzureEnvironmentLocations
+    href: CloudCommon.Enums.AzureEnvironmentLocations.md
+  - name: MergeOperatorsEnum
+    href: CloudCommon.Enums.MergeOperatorsEnum.md
+- name: CloudCommon.Environment
+  href: CloudCommon.Environment.md
+  items:
+  - name: Structs
+  - name: Environment
+    href: CloudCommon.Environment.Environment.md
+  - name: Interfaces
+  - name: IAppEnvironment
+    href: CloudCommon.Environment.IAppEnvironment.md
+  - name: IAzureEnvironment
+    href: CloudCommon.Environment.IAzureEnvironment.md
+- name: CloudCommon.Environment.Impl
+  href: CloudCommon.Environment.Impl.md
+  items:
+  - name: Classes
+  - name: AppEnvironment
+    href: CloudCommon.Environment.Impl.AppEnvironment.md
+  - name: AzureEnvironment
+    href: CloudCommon.Environment.Impl.AzureEnvironment.md
+- name: CloudCommon.Extensions
+  href: CloudCommon.Extensions.md
+  items:
+  - name: Classes
+  - name: AppContext
+    href: CloudCommon.Extensions.AppContext.md
+  - name: DateTimeExtension
+    href: CloudCommon.Extensions.DateTimeExtension.md
+  - name: DecimalExtension
+    href: CloudCommon.Extensions.DecimalExtension.md
+  - name: DictionaryExtension
+    href: CloudCommon.Extensions.DictionaryExtension.md
+  - name: EnumerableExtension
+    href: CloudCommon.Extensions.EnumerableExtension.md
+  - name: GenericExtension
+    href: CloudCommon.Extensions.GenericExtension.md
+  - name: IntegerExtensions
+    href: CloudCommon.Extensions.IntegerExtensions.md
+  - name: ListExtensions
+    href: CloudCommon.Extensions.ListExtensions.md
+  - name: MemoryUnitConverterExtension
+    href: CloudCommon.Extensions.MemoryUnitConverterExtension.md
+  - name: NhibernateConfigurationExtensions
+    href: CloudCommon.Extensions.NhibernateConfigurationExtensions.md
+  - name: ProcessExtensions
+    href: CloudCommon.Extensions.ProcessExtensions.md
+  - name: StringExtension
+    href: CloudCommon.Extensions.StringExtension.md
+  - name: TimeUnitConverterExtension
+    href: CloudCommon.Extensions.TimeUnitConverterExtension.md
+  - name: TypeExtension
+    href: CloudCommon.Extensions.TypeExtension.md
+  - name: WebApplicationBuilderExtension
+    href: CloudCommon.Extensions.WebApplicationBuilderExtension.md
+  - name: WebApplicationExtension
+    href: CloudCommon.Extensions.WebApplicationExtension.md
+  - name: ZipArchiveExtensions
+    href: CloudCommon.Extensions.ZipArchiveExtensions.md
+  - name: Enums
+  - name: MemoryUnitSize
+    href: CloudCommon.Extensions.MemoryUnitSize.md
+  - name: TimeUnitConverter
+    href: CloudCommon.Extensions.TimeUnitConverter.md
+- name: CloudCommon.Http
+  href: CloudCommon.Http.md
+  items:
+  - name: Classes
+  - name: HttpContextAccessorProxy
+    href: CloudCommon.Http.HttpContextAccessorProxy.md
+  - name: HttpContextExtensions
+    href: CloudCommon.Http.HttpContextExtensions.md
+  - name: ServerResponse<T>
+    href: CloudCommon.Http.ServerResponse-1.md
+  - name: ServerResponseUtil
+    href: CloudCommon.Http.ServerResponseUtil.md
+  - name: UrlSegments
+    href: CloudCommon.Http.UrlSegments.md
+- name: CloudCommon.Http.Context
+  href: CloudCommon.Http.Context.md
+  items:
+  - name: Classes
+  - name: DataContext
+    href: CloudCommon.Http.Context.DataContext.md
+- name: CloudCommon.Http.Filters
+  href: CloudCommon.Http.Filters.md
+  items:
+  - name: Classes
+  - name: Reader
+    href: CloudCommon.Http.Filters.Reader.md
+- name: CloudCommon.Http.Flurl.Abstractions
+  href: CloudCommon.Http.Flurl.Abstractions.md
+  items:
+  - name: Classes
+  - name: FlurlDefaults
+    href: CloudCommon.Http.Flurl.Abstractions.FlurlDefaults.md
+- name: CloudCommon.Http.FlurlClient
+  href: CloudCommon.Http.FlurlClient.md
+  items:
+  - name: Classes
+  - name: FlurlClientRegistration
+    href: CloudCommon.Http.FlurlClient.FlurlClientRegistration.md
+  - name: FlurlExtension
+    href: CloudCommon.Http.FlurlClient.FlurlExtension.md
+  - name: HeaderInfo
+    href: CloudCommon.Http.FlurlClient.HeaderInfo.md
+  - name: InternalFlurlExtension
+    href: CloudCommon.Http.FlurlClient.InternalFlurlExtension.md
+- name: CloudCommon.Internal.Injectors
+  href: CloudCommon.Internal.Injectors.md
+  items:
+  - name: Classes
+  - name: Tracker
+    href: CloudCommon.Internal.Injectors.Tracker.md
+- name: CloudCommon.Models
+  href: CloudCommon.Models.md
+  items:
+  - name: Classes
+  - name: CssResult
+    href: CloudCommon.Models.CssResult.md
+  - name: DetachedInstance
+    href: CloudCommon.Models.DetachedInstance.md
+  - name: ExpressionInstance<T>
+    href: CloudCommon.Models.ExpressionInstance-1.md
+  - name: JavaScriptResult
+    href: CloudCommon.Models.JavaScriptResult.md
+  - name: Interfaces
+  - name: IDynamicScripts
+    href: CloudCommon.Models.IDynamicScripts.md
+  - name: IPersistentCache
+    href: CloudCommon.Models.IPersistentCache.md
+- name: CloudCommon.Utils
+  href: CloudCommon.Utils.md
+  items:
+  - name: Classes
+  - name: ApiResponse
+    href: CloudCommon.Utils.ApiResponse.md
+  - name: AssemblyUtil
+    href: CloudCommon.Utils.AssemblyUtil.md
+  - name: BinarySerializationUtil
+    href: CloudCommon.Utils.BinarySerializationUtil.md
+  - name: ExceptionUtil
+    href: CloudCommon.Utils.ExceptionUtil.md
+  - name: ExpressionUtil
+    href: CloudCommon.Utils.ExpressionUtil.md
+  - name: FileUtil
+    href: CloudCommon.Utils.FileUtil.md
+  - name: GenericUtil
+    href: CloudCommon.Utils.GenericUtil.md
+  - name: InterfaceUtil
+    href: CloudCommon.Utils.InterfaceUtil.md
+  - name: IpUtil
+    href: CloudCommon.Utils.IpUtil.md
+  - name: LockUtil
+    href: CloudCommon.Utils.LockUtil.md
+  - name: MethodUtil
+    href: CloudCommon.Utils.MethodUtil.md
+  - name: NullExceptionUtil
+    href: CloudCommon.Utils.NullExceptionUtil.md
+  - name: ObjectUtil
+    href: CloudCommon.Utils.ObjectUtil.md
+  - name: RandomPasswordGenerator
+    href: CloudCommon.Utils.RandomPasswordGenerator.md
+  - name: RandomUtil
+    href: CloudCommon.Utils.RandomUtil.md
+  - name: RetryUtil
+    href: CloudCommon.Utils.RetryUtil.md
+  - name: ServicesUtil
+    href: CloudCommon.Utils.ServicesUtil.md
+  - name: StringUtil
+    href: CloudCommon.Utils.StringUtil.md
+  - name: UrlUtil
+    href: CloudCommon.Utils.UrlUtil.md
+  - name: ZipUtil
+    href: CloudCommon.Utils.ZipUtil.md
+- name: CloudCommon.Utils.Hibernate
+  href: CloudCommon.Utils.Hibernate.md
+  items:
+  - name: Classes
+  - name: Json<TSerializable>
+    href: CloudCommon.Utils.Hibernate.Json-1.md
+  - name: NpgsqlExtendedTypes
+    href: CloudCommon.Utils.Hibernate.NpgsqlExtendedTypes.md
+- name: CloudCommon.Utils.NHibernate
+  href: CloudCommon.Utils.NHibernate.md
+  items:
+  - name: Classes
+  - name: CustomJsonTypes
+    href: CloudCommon.Utils.NHibernate.CustomJsonTypes.md
