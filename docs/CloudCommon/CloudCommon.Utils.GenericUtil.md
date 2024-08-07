@@ -45,7 +45,7 @@ public class GenericUtil
 
 ## Methods
 
-### replaced FindGenericMethodAndInvoke\(string, Type, object, params object\[\]\)
+###  FindGenericMethodAndInvoke\(string, Type, object, params object\[\]\)
 
 ```csharp
 public static object FindGenericMethodAndInvoke(string methodName, Type genericType, object obj, params object[] parameters)
@@ -65,7 +65,7 @@ public static object FindGenericMethodAndInvoke(string methodName, Type genericT
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced FindGenericMethodAndInvoke<K\>\(string, Type, object, params object\[\]\)
+###  FindGenericMethodAndInvoke<K\>\(string, Type, object, params object\[\]\)
 
 ```csharp
 public static K FindGenericMethodAndInvoke<K>(string methodName, Type genericType, object obj, params object[] parameters)
@@ -89,7 +89,7 @@ public static K FindGenericMethodAndInvoke<K>(string methodName, Type genericTyp
 
 `K` 
 
-### replaced FindGenericMethodAndInvokeForStaticClass\(Type, string, Type, params object\[\]\)
+###  FindGenericMethodAndInvokeForStaticClass\(Type, string, Type, params object\[\]\)
 
 ```csharp
 public static object FindGenericMethodAndInvokeForStaticClass(Type staticType, string methodName, Type genericType, params object[] parameters)
@@ -109,7 +109,7 @@ public static object FindGenericMethodAndInvokeForStaticClass(Type staticType, s
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced FindMultiGenericMethodAndInvoke<T, K\>\(string, object, Type\[\], object\[\], int\)
+###  FindMultiGenericMethodAndInvoke<T, K\>\(string, object, Type\[\], object\[\], int\)
 
 ```csharp
 public static K FindMultiGenericMethodAndInvoke<T, K>(string methodName, object obj, Type[] genericTypes, object[] parameters, int genericsCount = 2) where T : class
@@ -137,7 +137,7 @@ public static K FindMultiGenericMethodAndInvoke<T, K>(string methodName, object 
 
 `K` 
 
-### replaced FindStaticGenericMethodAndInvoke<T, K\>\(string, Type, params object\[\]\)
+###  FindStaticGenericMethodAndInvoke<T, K\>\(string, Type, params object\[\]\)
 
 ```csharp
 public static K FindStaticGenericMethodAndInvoke<T, K>(string methodName, Type genericType, params object[] parameters) where T : class
@@ -161,7 +161,7 @@ public static K FindStaticGenericMethodAndInvoke<T, K>(string methodName, Type g
 
 `K` 
 
-### replaced FindStaticMultiGenericMethodAndInvoke<T, K\>\(string, Type\[\], object\[\], int\)
+###  FindStaticMultiGenericMethodAndInvoke<T, K\>\(string, Type\[\], object\[\], int\)
 
 ```csharp
 public static K FindStaticMultiGenericMethodAndInvoke<T, K>(string methodName, Type[] genericTypes, object[] parameters, int genericsCount = 2) where T : class
@@ -187,7 +187,7 @@ public static K FindStaticMultiGenericMethodAndInvoke<T, K>(string methodName, T
 
 `K` 
 
-### replaced InvokeGenericMethod\(MethodInfo, Type, object, params object\[\]\)
+###  InvokeGenericMethod\(MethodInfo, Type, object, params object\[\]\)
 
 ```csharp
 public static object InvokeGenericMethod(MethodInfo methodInfo, Type genericType, object obj, params object[] parameters)

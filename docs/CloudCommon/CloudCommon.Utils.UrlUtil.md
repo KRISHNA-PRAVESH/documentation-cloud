@@ -45,7 +45,7 @@ public class UrlUtil
 
 ## Methods
 
-### replaced GetHostNameWithPort\(Uri\)
+###  GetHostNameWithPort\(Uri\)
 
 ```csharp
 public static string GetHostNameWithPort(Uri uri)

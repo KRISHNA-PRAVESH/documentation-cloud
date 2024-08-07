@@ -30,7 +30,7 @@ public interface IAppSettings
 
 ## Methods
 
-### replaced Configuration\(\)
+###  Configuration\(\)
 
 ```csharp
 ConfigurationManager Configuration()

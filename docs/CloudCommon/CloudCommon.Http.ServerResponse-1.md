@@ -52,7 +52,7 @@ public class ServerResponse<T>
 
 ## Constructors
 
-### replaced ServerResponse\(\)
+###  ServerResponse\(\)
 
 new server response initializers
 
@@ -60,7 +60,7 @@ new server response initializers
 public ServerResponse()
 ```
 
-### replaced ServerResponse\(T, string, HttpStatusCode\)
+###  ServerResponse\(T, string, HttpStatusCode\)
 
 new server response initializers with argument
 
@@ -76,7 +76,7 @@ public ServerResponse(T data, string message, HttpStatusCode httpStatusCode)
 
 `httpStatusCode` [HttpStatusCode](https://learn.microsoft.com/dotnet/api/system.net.httpstatuscode)
 
-### replaced ServerResponse\(string, HttpStatusCode\)
+###  ServerResponse\(string, HttpStatusCode\)
 
 new server response initializers with argument
 
@@ -92,7 +92,7 @@ public ServerResponse(string message, HttpStatusCode httpStatusCode)
 
 ## Properties
 
-### replaced Data
+###  Data
 
 response data
 
@@ -105,7 +105,7 @@ public T? Data { get; set; }
 
  T?
 
-### replaced HttpStatusCode
+###  HttpStatusCode
 
 http response status code
 
@@ -118,7 +118,7 @@ public HttpStatusCode? HttpStatusCode { get; set; }
 
  [HttpStatusCode](https://learn.microsoft.com/dotnet/api/system.net.httpstatuscode)?
 
-### replaced Message
+###  Message
 
 if there's error in server it will be displayed in message
 
@@ -133,7 +133,7 @@ public string? Message { get; set; }
 
 ## Methods
 
-### replaced CreateErrorResponse\(Exception\)
+###  CreateErrorResponse\(Exception\)
 
 used to fetch new server response as internal server error
 

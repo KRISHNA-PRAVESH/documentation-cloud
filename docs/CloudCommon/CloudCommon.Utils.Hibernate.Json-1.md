@@ -53,7 +53,7 @@ IUserType
 
 ## Constructors
 
-### replaced Json\(\)
+###  Json\(\)
 
 ```csharp
 public Json()
@@ -61,7 +61,7 @@ public Json()
 
 ## Properties
 
-### replaced IsMutable
+###  IsMutable
 
 Are objects of this type mutable?
 
@@ -73,7 +73,7 @@ public bool IsMutable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced ReturnedType
+###  ReturnedType
 
 The type returned by <code>NullSafeGet()</code>
 
@@ -85,7 +85,7 @@ public Type ReturnedType { get; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### replaced SqlTypes
+###  SqlTypes
 
 The SQL types for the columns mapped by this type.
 
@@ -99,7 +99,7 @@ public SqlType[] SqlTypes { get; }
 
 ## Methods
 
-### replaced Assemble\(object, object\)
+###  Assemble\(object, object\)
 
 Reconstruct an object from the cacheable representation. At the very least this
 method should perform a deep copy if the type is mutable. See
@@ -125,7 +125,7 @@ The owner of the cached object.
 
 A reconstructed object from the cachable representation.
 
-### replaced DeepCopy\(object\)
+###  DeepCopy\(object\)
 
 Return a deep copy of the persistent state, stopping at entities and at collections.
 
@@ -145,7 +145,7 @@ Generally a collection element or entity field value mapped as this user type.
 
 A copy.
 
-### replaced Disassemble\(object\)
+###  Disassemble\(object\)
 
 Transform the object into its cacheable representation. At the very least this
 method should perform a deep copy if the type is mutable. That may not be enough

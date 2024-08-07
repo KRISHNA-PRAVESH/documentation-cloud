@@ -45,7 +45,7 @@ public class LockUtil
 
 ## Methods
 
-### replaced GetLockObject\(object\)
+###  GetLockObject\(object\)
 
 ```csharp
 public static object GetLockObject(object lockKey)
@@ -59,7 +59,7 @@ public static object GetLockObject(object lockKey)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced LockStatements<T\>\(Func<T\>, object\)
+###  LockStatements<T\>\(Func<T\>, object\)
 
 ```csharp
 public static T LockStatements<T>(Func<T> func, object lockKey)
@@ -79,7 +79,7 @@ public static T LockStatements<T>(Func<T> func, object lockKey)
 
 `T` 
 
-### replaced LockStatements\(Action, object\)
+###  LockStatements\(Action, object\)
 
 ```csharp
 public static void LockStatements(Action action, object lockKey)

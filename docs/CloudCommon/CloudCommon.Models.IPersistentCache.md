@@ -30,7 +30,7 @@ public interface IPersistentCache
 
 ## Properties
 
-### replaced PersistentKey
+###  PersistentKey
 
 ```csharp
 string PersistentKey { get; set; }
@@ -40,7 +40,7 @@ string PersistentKey { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced PersistentType
+###  PersistentType
 
 ```csharp
 string PersistentType { get; set; }
@@ -50,7 +50,7 @@ string PersistentType { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced PersistentValue
+###  PersistentValue
 
 ```csharp
 string PersistentValue { get; set; }

@@ -39,7 +39,7 @@ public static class ZipArchiveExtensions
 
 ## Methods
 
-### replaced ExtractToDirectory\(string, string, bool\)
+###  ExtractToDirectory\(string, string, bool\)
 
 ```csharp
 public static void ExtractToDirectory(string archiveName, string destinationDirectoryName, bool overwrite)
@@ -53,7 +53,7 @@ public static void ExtractToDirectory(string archiveName, string destinationDire
 
 `overwrite` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced ExtractToDirectory\(ZipArchive, string, bool\)
+###  ExtractToDirectory\(ZipArchive, string, bool\)
 
 ```csharp
 public static void ExtractToDirectory(this ZipArchive archive, string destinationDirectoryName, bool overwrite)

@@ -39,7 +39,7 @@ public static class DateTimeExtension
 
 ## Methods
 
-### replaced FromUnixTime\(long\)
+###  FromUnixTime\(long\)
 
 ```csharp
 public static DateTime FromUnixTime(this long totalSeconds)
@@ -53,7 +53,7 @@ public static DateTime FromUnixTime(this long totalSeconds)
 
  [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
 
-### replaced GetStartingTimeOfPeriodType\(DateTime, PeriodType\)
+###  GetStartingTimeOfPeriodType\(DateTime, PeriodType\)
 
 ```csharp
 public static DateTime GetStartingTimeOfPeriodType(DateTime startTime, PeriodType periodType)
@@ -69,7 +69,7 @@ public static DateTime GetStartingTimeOfPeriodType(DateTime startTime, PeriodTyp
 
  [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
 
-### replaced GetStringRange\(TimeSpan\)
+###  GetStringRange\(TimeSpan\)
 
 ```csharp
 public static string GetStringRange(this TimeSpan timeSpan)
@@ -83,7 +83,7 @@ public static string GetStringRange(this TimeSpan timeSpan)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced RoundDown\(DateTime, TimeSpan\)
+###  RoundDown\(DateTime, TimeSpan\)
 
 ```csharp
 public static DateTime RoundDown(this DateTime dt, TimeSpan d)
@@ -99,7 +99,7 @@ public static DateTime RoundDown(this DateTime dt, TimeSpan d)
 
  [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
 
-### replaced RoundUp\(DateTime, TimeSpan\)
+###  RoundUp\(DateTime, TimeSpan\)
 
 ```csharp
 public static DateTime RoundUp(this DateTime dt, TimeSpan d)
@@ -115,7 +115,7 @@ public static DateTime RoundUp(this DateTime dt, TimeSpan d)
 
  [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
 
-### replaced ToDD\_MMM\_YYYY\(DateTime\)
+###  ToDD\_MMM\_YYYY\(DateTime\)
 
 ```csharp
 public static string ToDD_MMM_YYYY(this DateTime dateTime)
@@ -129,7 +129,7 @@ public static string ToDD_MMM_YYYY(this DateTime dateTime)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced ToHH\_MM\(DateTime\)
+###  ToHH\_MM\(DateTime\)
 
 ```csharp
 public static string ToHH_MM(this DateTime dateTime)

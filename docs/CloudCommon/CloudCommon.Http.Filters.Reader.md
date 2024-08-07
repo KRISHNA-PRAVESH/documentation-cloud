@@ -102,7 +102,7 @@ public class Reader : ActionFilterAttribute, IActionFilter, IAsyncActionFilter, 
 
 ## Constructors
 
-### replaced Reader\(Type\)
+###  Reader\(Type\)
 
 used to pass an Type as deserialization argument
 
@@ -114,7 +114,7 @@ public Reader(Type parameterType)
 
 `parameterType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### replaced Reader\(string\)
+###  Reader\(string\)
 
 used to pass an parameterType as deserialization argument PS :  it will fetch the type qualified name from action arguments.
 
@@ -128,7 +128,7 @@ public Reader(string parameterArgumentName)
 
 ## Methods
 
-### replaced OnActionExecuting\(ActionExecutingContext\)
+###  OnActionExecuting\(ActionExecutingContext\)
 
 executes before the api method entry. here the reader context will be initialized.
 

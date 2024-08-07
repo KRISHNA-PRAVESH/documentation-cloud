@@ -47,7 +47,7 @@ public class HeaderInfo
 
 ## Fields
 
-### replaced BaseAddress
+###  BaseAddress
 
 reference for application hosted end point
 
@@ -59,7 +59,7 @@ public const string BaseAddress = "x-base-Address"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GloabalAppInstance
+###  GloabalAppInstance
 
 reference for application hosted name like identifier
 
@@ -71,7 +71,7 @@ public const string GloabalAppInstance = "x-global-app-instance"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GlobalTenant
+###  GlobalTenant
 
 reference for current processing tenant
 

@@ -45,7 +45,7 @@ public class InterfaceUtil
 
 ## Methods
 
-### replaced GetImplementedClasses\(Type, string\)
+###  GetImplementedClasses\(Type, string\)
 
 ```csharp
 public static IEnumerable<Type> GetImplementedClasses(Type interfaceType, string namespaceFilter = null)
@@ -61,7 +61,7 @@ public static IEnumerable<Type> GetImplementedClasses(Type interfaceType, string
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Type](https://learn.microsoft.com/dotnet/api/system.type)\>
 
-### replaced GetImplementedTypes\(Type\)
+###  GetImplementedTypes\(Type\)
 
 ```csharp
 public static List<Type> GetImplementedTypes(Type type)
@@ -75,7 +75,7 @@ public static List<Type> GetImplementedTypes(Type type)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Type](https://learn.microsoft.com/dotnet/api/system.type)\>
 
-### replaced GetInHeritedTypes\(Type\)
+###  GetInHeritedTypes\(Type\)
 
 ```csharp
 public static List<Type> GetInHeritedTypes(Type type)

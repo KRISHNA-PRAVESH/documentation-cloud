@@ -41,7 +41,7 @@ public static class WebApplicationBuilderExtension
 
 ## Methods
 
-### replaced AddAppContext\(WebApplicationBuilder\)
+###  AddAppContext\(WebApplicationBuilder\)
 
 it will create an appcontext instance which is used to get app settings in entire product
 

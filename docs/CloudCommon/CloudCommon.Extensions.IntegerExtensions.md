@@ -39,7 +39,7 @@ public static class IntegerExtensions
 
 ## Methods
 
-### replaced DisplayWithSuffix\(int\)
+###  DisplayWithSuffix\(int\)
 
 ```csharp
 public static string DisplayWithSuffix(this int num)

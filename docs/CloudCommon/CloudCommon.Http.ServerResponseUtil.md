@@ -47,7 +47,7 @@ public class ServerResponseUtil
 
 ## Methods
 
-### replaced CreateCustomResponseAsByte\(object, string, HttpStatusCode\)
+###  CreateCustomResponseAsByte\(object, string, HttpStatusCode\)
 
 used to fetch new server response as customized one
 
@@ -67,7 +67,7 @@ public static byte[] CreateCustomResponseAsByte(object data, string message, Htt
 
  [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
 
-### replaced CreateSuccessResponseAsByte\(object, string\)
+###  CreateSuccessResponseAsByte\(object, string\)
 
 used to fetch new server response as success as byte
 

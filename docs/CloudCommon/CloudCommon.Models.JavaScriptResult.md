@@ -58,7 +58,7 @@ public class JavaScriptResult : ContentResult, IStatusCodeActionResult, IActionR
 
 ## Constructors
 
-### replaced JavaScriptResult\(string\)
+###  JavaScriptResult\(string\)
 
 ```csharp
 public JavaScriptResult(string script)

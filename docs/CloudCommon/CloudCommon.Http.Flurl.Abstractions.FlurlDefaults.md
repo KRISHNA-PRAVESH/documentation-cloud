@@ -47,7 +47,7 @@ public abstract class FlurlDefaults
 
 ## Methods
 
-### replaced GetAccessToken\(\)
+###  GetAccessToken\(\)
 
 used to registering access token fetcher
 
@@ -59,7 +59,7 @@ public abstract string GetAccessToken()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GetDefaultHeader\(\)
+###  GetDefaultHeader\(\)
 
 used for default headers registering for flurl extension
 
@@ -71,7 +71,7 @@ public abstract Dictionary<string, Func<object>> GetDefaultHeader()
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>\>
 
-### replaced VerifySignature\(object, string\)
+###  VerifySignature\(object, string\)
 
 used to verifying the signature
 

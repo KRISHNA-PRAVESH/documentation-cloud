@@ -39,7 +39,7 @@ public static class NhibernateConfigurationExtensions
 
 ## Methods
 
-### replaced DisableNHibernateSecondLevelCache\(Configuration\)
+###  DisableNHibernateSecondLevelCache\(Configuration\)
 
 ```csharp
 public static void DisableNHibernateSecondLevelCache(this Configuration configuration)

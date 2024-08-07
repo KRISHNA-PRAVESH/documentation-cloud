@@ -39,7 +39,7 @@ public struct Environment
 
 ## Methods
 
-### replaced Get\(\)
+###  Get\(\)
 
 ```csharp
 public static IAppEnvironment Get()

@@ -49,7 +49,7 @@ public class AppSettings : IAppSettings
 
 ## Methods
 
-### replaced Configuration\(\)
+###  Configuration\(\)
 
 ```csharp
 public ConfigurationManager Configuration()
@@ -59,7 +59,7 @@ public ConfigurationManager Configuration()
 
  [ConfigurationManager](https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.configurationmanager)
 
-### replaced SetConfiguration\(ConfigurationManager\)
+###  SetConfiguration\(ConfigurationManager\)
 
 ```csharp
 public static void SetConfiguration(ConfigurationManager configurationManager)

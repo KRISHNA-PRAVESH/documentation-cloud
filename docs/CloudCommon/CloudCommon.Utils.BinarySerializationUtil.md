@@ -41,7 +41,7 @@ public static class BinarySerializationUtil
 
 ## Methods
 
-### replaced Deserialize<T\>\(object\)
+###  Deserialize<T\>\(object\)
 
 used for deserializing objects in to specific types
 
@@ -61,7 +61,7 @@ public static T Deserialize<T>(this object data)
 
 `T` 
 
-### replaced Deserialize\(object, Type\)
+###  Deserialize\(object, Type\)
 
 used for deserializing objects in to specific types
 
@@ -79,7 +79,7 @@ public static object Deserialize(this object data, Type type)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced RegisterAssembly\(string\)
+###  RegisterAssembly\(string\)
 
 used to registering an assembly to use binary formatter serialization
 
@@ -93,7 +93,7 @@ public static void RegisterAssembly(string assemblyFullName)
 
 PS : typeof(DetachedCriteria).Assembly.FullName
 
-### replaced RegisterType\(string\)
+###  RegisterType\(string\)
 
 used to registering an assembly to use message pack serialization
 
@@ -107,7 +107,7 @@ public static void RegisterType(string assemblyQualifiedName)
 
 PS :typeof(List).AssemblyQualifiedName
 
-### replaced Serialize\(object\)
+###  Serialize\(object\)
 
 used for serializing objects in to bytes it will automatically chooses which serialization
 

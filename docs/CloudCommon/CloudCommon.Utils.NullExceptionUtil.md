@@ -45,7 +45,7 @@ public class NullExceptionUtil
 
 ## Methods
 
-### replaced ThrowIfNull\(params object\[\]?\)
+###  ThrowIfNull\(params object\[\]?\)
 
 ```csharp
 public static void ThrowIfNull(params object[]? args)

@@ -34,7 +34,7 @@ public interface IAppEnvironment : IDisposable
 
 ## Properties
 
-### replaced AllowedIps
+###  AllowedIps
 
 ```csharp
 string AllowedIps { get; set; }
@@ -44,7 +44,7 @@ string AllowedIps { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AppBaseUrl
+###  AppBaseUrl
 
 ```csharp
 string AppBaseUrl { get; set; }
@@ -54,7 +54,7 @@ string AppBaseUrl { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AppGivenName
+###  AppGivenName
 
 ```csharp
 string AppGivenName { get; set; }
@@ -64,7 +64,7 @@ string AppGivenName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AppId
+###  AppId
 
 ```csharp
 string AppId { get; set; }
@@ -74,7 +74,7 @@ string AppId { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AppName
+###  AppName
 
 ```csharp
 string AppName { get; set; }
@@ -84,7 +84,7 @@ string AppName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AppVersion
+###  AppVersion
 
 ```csharp
 string AppVersion { get; set; }
@@ -94,7 +94,7 @@ string AppVersion { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AuthResponseUrl
+###  AuthResponseUrl
 
 ```csharp
 string AuthResponseUrl { get; set; }

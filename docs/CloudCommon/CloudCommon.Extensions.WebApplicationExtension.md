@@ -41,7 +41,7 @@ public static class WebApplicationExtension
 
 ## Methods
 
-### replaced ConfigureHttpPipeLine\(WebApplication, string?\)
+###  ConfigureHttpPipeLine\(WebApplication, string?\)
 
 used configuring Http Pipeline
 

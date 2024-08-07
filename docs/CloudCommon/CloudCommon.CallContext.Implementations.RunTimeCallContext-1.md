@@ -49,7 +49,7 @@ public class RunTimeCallContext<T>
 
 ## Constructors
 
-### replaced RunTimeCallContext\(Func<AsyncLocal<RunTimeCallContextHolder<T\>\>\>\)
+###  RunTimeCallContext\(Func<AsyncLocal<RunTimeCallContextHolder<T\>\>\>\)
 
 ```csharp
 public RunTimeCallContext(Func<AsyncLocal<RunTimeCallContextHolder<T>>> asyncLocalInvoker)
@@ -61,7 +61,7 @@ public RunTimeCallContext(Func<AsyncLocal<RunTimeCallContextHolder<T>>> asyncLoc
 
 ## Properties
 
-### replaced Value
+###  Value
 
 ```csharp
 public virtual T Value { get; set; }
@@ -73,7 +73,7 @@ public virtual T Value { get; set; }
 
 ## Methods
 
-### replaced LogicalGetData\(\)
+###  LogicalGetData\(\)
 
 ```csharp
 public virtual T LogicalGetData()
@@ -83,7 +83,7 @@ public virtual T LogicalGetData()
 
  T
 
-### replaced LogicalSetData\(T\)
+###  LogicalSetData\(T\)
 
 ```csharp
 public virtual void LogicalSetData(T value)

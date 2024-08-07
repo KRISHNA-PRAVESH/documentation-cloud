@@ -41,7 +41,7 @@ public static class FlurlExtension
 
 ## Methods
 
-### replaced AppendHeaders\(IFlurlRequest, Dictionary<string, object\>\)
+###  AppendHeaders\(IFlurlRequest, Dictionary<string, object\>\)
 
 used for appending headers with key value pair
 
@@ -59,7 +59,7 @@ public static IFlurlRequest AppendHeaders(this IFlurlRequest url, Dictionary<str
 
  IFlurlRequest
 
-### replaced AppendListOfPathSegments\(Url, List<string\>\)
+###  AppendListOfPathSegments\(Url, List<string\>\)
 
 used to append path segments in the flurl url
 
@@ -77,7 +77,7 @@ public static Url AppendListOfPathSegments(this Url url, List<string> segments)
 
  Url
 
-### replaced AppendQueryParams\(Url, Dictionary<string, object\>\)
+###  AppendQueryParams\(Url, Dictionary<string, object\>\)
 
 used for appending query params with key value pair
 
@@ -95,7 +95,7 @@ public static Url AppendQueryParams(this Url url, Dictionary<string, object> que
 
  Url
 
-### replaced AppendQueryParamsAndPathSegmentsFromUrlSegmentsRecord\(Url, UrlSegments, params object\[\]\)
+###  AppendQueryParamsAndPathSegmentsFromUrlSegmentsRecord\(Url, UrlSegments, params object\[\]\)
 
 used to appending query params and path segments from the url segments itself
 
@@ -115,7 +115,7 @@ public static Url AppendQueryParamsAndPathSegmentsFromUrlSegmentsRecord(this Url
 
  Url
 
-### replaced GetClientFlurlUrl\(\)
+###  GetClientFlurlUrl\(\)
 
 used for fetch flurl url with path segment api/client
 
@@ -127,7 +127,7 @@ public static Url GetClientFlurlUrl()
 
  Url
 
-### replaced GetCpmFlurlUrl\(\)
+###  GetCpmFlurlUrl\(\)
 
 used for fetch flurl url without path segments
 
@@ -139,7 +139,7 @@ public static Url GetCpmFlurlUrl()
 
  Url
 
-### replaced GetDirectoryClientFlurlUrl\(\)
+###  GetDirectoryClientFlurlUrl\(\)
 
 used for fetch flurl url without path segments
 

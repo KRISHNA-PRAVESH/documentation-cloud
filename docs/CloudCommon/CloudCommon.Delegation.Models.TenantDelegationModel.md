@@ -49,7 +49,7 @@ public class TenantDelegationModel : ITenantDelegationModel
 
 ## Constructors
 
-### replaced TenantDelegationModel\(string, object\)
+###  TenantDelegationModel\(string, object\)
 
 ```csharp
 public TenantDelegationModel(string userTenant, object data = null)
@@ -63,7 +63,7 @@ public TenantDelegationModel(string userTenant, object data = null)
 
 ## Properties
 
-### replaced UserData
+###  UserData
 
 ```csharp
 public object UserData { get; set; }
@@ -73,7 +73,7 @@ public object UserData { get; set; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced UserTenant
+###  UserTenant
 
 ```csharp
 public string UserTenant { get; set; }

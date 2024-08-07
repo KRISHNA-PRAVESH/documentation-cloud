@@ -45,7 +45,7 @@ public class RetryUtil
 
 ## Fields
 
-### replaced generalRetryPolicy
+###  generalRetryPolicy
 
 ```csharp
 public static readonly RetryPolicy generalRetryPolicy
@@ -55,7 +55,7 @@ public static readonly RetryPolicy generalRetryPolicy
 
  [RetryPolicy](https://github.com/App\-vNext/Polly/blob/4d2dd5ac2a270708b63b42de7c4272efc012d55c/src/Polly/Retry/RetryPolicy.cs)
 
-### replaced generalRetryPolicyAsync
+###  generalRetryPolicyAsync
 
 ```csharp
 public static readonly AsyncPolicy generalRetryPolicyAsync
@@ -65,7 +65,7 @@ public static readonly AsyncPolicy generalRetryPolicyAsync
 
  [AsyncPolicy](https://github.com/App\-vNext/Polly/blob/4d2dd5ac2a270708b63b42de7c4272efc012d55c/src/Polly/AsyncPolicy.ContextAndKeys.cs)
 
-### replaced internetConnectivityRetryPolicy
+###  internetConnectivityRetryPolicy
 
 ```csharp
 public static readonly RetryPolicy internetConnectivityRetryPolicy
@@ -75,7 +75,7 @@ public static readonly RetryPolicy internetConnectivityRetryPolicy
 
  [RetryPolicy](https://github.com/App\-vNext/Polly/blob/4d2dd5ac2a270708b63b42de7c4272efc012d55c/src/Polly/Retry/RetryPolicy.cs)
 
-### replaced longRetryPolicy
+###  longRetryPolicy
 
 ```csharp
 public static readonly RetryPolicy longRetryPolicy
@@ -85,7 +85,7 @@ public static readonly RetryPolicy longRetryPolicy
 
  [RetryPolicy](https://github.com/App\-vNext/Polly/blob/4d2dd5ac2a270708b63b42de7c4272efc012d55c/src/Polly/Retry/RetryPolicy.cs)
 
-### replaced onAsyncRetry
+###  onAsyncRetry
 
 ```csharp
 public static readonly Action<Exception, TimeSpan> onAsyncRetry
@@ -95,7 +95,7 @@ public static readonly Action<Exception, TimeSpan> onAsyncRetry
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[Exception](https://learn.microsoft.com/dotnet/api/system.exception), [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)\>
 
-### replaced onRetry
+###  onRetry
 
 ```csharp
 public static readonly Action<Exception, TimeSpan, Context> onRetry
@@ -105,7 +105,7 @@ public static readonly Action<Exception, TimeSpan, Context> onRetry
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-3)<[Exception](https://learn.microsoft.com/dotnet/api/system.exception), [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan), [Context](https://github.com/App\-vNext/Polly/blob/4d2dd5ac2a270708b63b42de7c4272efc012d55c/src/Polly/Context.Dictionary.cs)\>
 
-### replaced retryOnceOnError
+###  retryOnceOnError
 
 ```csharp
 public static readonly RetryPolicy retryOnceOnError

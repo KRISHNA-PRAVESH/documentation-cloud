@@ -39,7 +39,7 @@ public static class TimeUnitConverterExtension
 
 ## Methods
 
-### replaced ConvertTicksToMinOrHrTimeUnit\(long, TimeUnitConverter\)
+###  ConvertTicksToMinOrHrTimeUnit\(long, TimeUnitConverter\)
 
 ```csharp
 public static double ConvertTicksToMinOrHrTimeUnit(this long value, TimeUnitConverter unit)
@@ -55,7 +55,7 @@ public static double ConvertTicksToMinOrHrTimeUnit(this long value, TimeUnitConv
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### replaced GetTimeUnitString\(TimeUnitConverter\)
+###  GetTimeUnitString\(TimeUnitConverter\)
 
 ```csharp
 public static string GetTimeUnitString(this TimeUnitConverter unit)

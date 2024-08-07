@@ -48,7 +48,7 @@ public class DetachedInstance
 
 ## Constructors
 
-### replaced DetachedInstance\(\)
+###  DetachedInstance\(\)
 
 ```csharp
 public DetachedInstance()
@@ -56,7 +56,7 @@ public DetachedInstance()
 
 ## Properties
 
-### replaced Criteria
+###  Criteria
 
 ```csharp
 public virtual List<ICriterion>? Criteria { get; set; }
@@ -66,7 +66,7 @@ public virtual List<ICriterion>? Criteria { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ICriterion\>?
 
-### replaced FirstResult
+###  FirstResult
 
 ```csharp
 public virtual int FirstResult { get; set; }
@@ -76,7 +76,7 @@ public virtual int FirstResult { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### replaced MaxResults
+###  MaxResults
 
 ```csharp
 public virtual int MaxResults { get; set; }
@@ -86,7 +86,7 @@ public virtual int MaxResults { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### replaced Orders
+###  Orders
 
 ```csharp
 public virtual List<Order>? Orders { get; set; }
@@ -96,7 +96,7 @@ public virtual List<Order>? Orders { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Order\>?
 
-### replaced Projections
+###  Projections
 
 ```csharp
 public virtual List<IProjection>? Projections { get; set; }
@@ -106,7 +106,7 @@ public virtual List<IProjection>? Projections { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IProjection\>?
 
-### replaced ResultTransformerTypes
+###  ResultTransformerTypes
 
 ```csharp
 public virtual Tuple<string, string> ResultTransformerTypes { get; set; }

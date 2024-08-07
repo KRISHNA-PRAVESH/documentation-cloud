@@ -58,7 +58,7 @@ public class CssResult : ContentResult, IStatusCodeActionResult, IActionResult
 
 ## Constructors
 
-### replaced CssResult\(string\)
+###  CssResult\(string\)
 
 ```csharp
 public CssResult(string css)

@@ -45,7 +45,7 @@ public class RandomPasswordGenerator
 
 ## Methods
 
-### replaced Create\(int, int, bool, bool, bool, bool, bool, bool\)
+###  Create\(int, int, bool, bool, bool, bool, bool, bool\)
 
 ```csharp
 public static string Create(int minLength, int maxLength, bool allowLowerCase, bool allowUpperCase, bool allowNumber, bool allowSpecial, bool allowUnderscore, bool allowSpace)
@@ -73,7 +73,7 @@ public static string Create(int minLength, int maxLength, bool allowLowerCase, b
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced RandomInteger\(int, int\)
+###  RandomInteger\(int, int\)
 
 ```csharp
 public static int RandomInteger(int min, int max)

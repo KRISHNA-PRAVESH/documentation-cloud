@@ -45,7 +45,7 @@ public class IpUtil
 
 ## Methods
 
-### replaced GetHostNameFromIp\(string\)
+###  GetHostNameFromIp\(string\)
 
 ```csharp
 public static string GetHostNameFromIp(string ipAddress)
@@ -59,7 +59,7 @@ public static string GetHostNameFromIp(string ipAddress)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced IsLocalIpAddress\(string\)
+###  IsLocalIpAddress\(string\)
 
 ```csharp
 public static bool IsLocalIpAddress(string host)

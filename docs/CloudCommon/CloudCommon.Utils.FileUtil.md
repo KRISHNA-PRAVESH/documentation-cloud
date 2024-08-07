@@ -45,7 +45,7 @@ public class FileUtil
 
 ## Methods
 
-### replaced ArchieveDirectory\(string, string\)
+###  ArchieveDirectory\(string, string\)
 
 ```csharp
 public static bool ArchieveDirectory(string folder, string destfileName)
@@ -61,7 +61,7 @@ public static bool ArchieveDirectory(string folder, string destfileName)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced CopyFile\(string, string\)
+###  CopyFile\(string, string\)
 
 ```csharp
 public static bool CopyFile(string pathToSourceFile, string pathToTargetFile)
@@ -77,7 +77,7 @@ public static bool CopyFile(string pathToSourceFile, string pathToTargetFile)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced CreateArchiveFromSelectedFiles\(string\[\], string\)
+###  CreateArchiveFromSelectedFiles\(string\[\], string\)
 
 ```csharp
 public static bool CreateArchiveFromSelectedFiles(string[] files, string destfileName)
@@ -93,7 +93,7 @@ public static bool CreateArchiveFromSelectedFiles(string[] files, string destfil
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced DeleteFile\(string\)
+###  DeleteFile\(string\)
 
 ```csharp
 public static bool DeleteFile(string pathToFile)
@@ -107,7 +107,7 @@ public static bool DeleteFile(string pathToFile)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced GetFileSystemSizeAsString\(double\)
+###  GetFileSystemSizeAsString\(double\)
 
 ```csharp
 public static string GetFileSystemSizeAsString(double fileSystemSize)
@@ -121,7 +121,7 @@ public static string GetFileSystemSizeAsString(double fileSystemSize)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced ToSafeFileNames\(string\)
+###  ToSafeFileNames\(string\)
 
 ```csharp
 public static string ToSafeFileNames(string fileName)
@@ -135,7 +135,7 @@ public static string ToSafeFileNames(string fileName)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced WriteText\(string, string, bool\)
+###  WriteText\(string, string, bool\)
 
 ```csharp
 public static bool WriteText(string pathToFile, string text, bool isAppend = true)

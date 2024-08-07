@@ -41,7 +41,7 @@ public static class ServicesUtil
 
 ## Methods
 
-### replaced ExtractSchemes\(IServiceCollection\)
+###  ExtractSchemes\(IServiceCollection\)
 
 will extract the dependecies
 
@@ -57,7 +57,7 @@ public static IServiceCollection ExtractSchemes(this IServiceCollection serviceC
 
  [IServiceCollection](https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection)
 
-### replaced GetAuthCookieName\(\)
+###  GetAuthCookieName\(\)
 
 returns enabled auth cookie name
 
@@ -69,7 +69,7 @@ public static string GetAuthCookieName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GetAuthenticationSchemes\(\)
+###  GetAuthenticationSchemes\(\)
 
 it will returns enabled authentication schemes
 
@@ -81,7 +81,7 @@ public static IEnumerable<AuthenticationScheme> GetAuthenticationSchemes()
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[AuthenticationScheme](https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.authentication.authenticationscheme)\>
 
-### replaced SetAuthCookieName\(string\)
+###  SetAuthCookieName\(string\)
 
 sets the auth cookie name called from authentication extension don't set it after application initialized
 

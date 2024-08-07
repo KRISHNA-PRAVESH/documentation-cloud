@@ -47,7 +47,7 @@ public class CustomJsonTypes
 
 ## Methods
 
-### replaced AddNew\(List<Type\>\)
+###  AddNew\(List<Type\>\)
 
 used to add the new types in the npgsql
 
@@ -59,7 +59,7 @@ public static void AddNew(List<Type> customTypes)
 
 `customTypes` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Type](https://learn.microsoft.com/dotnet/api/system.type)\>
 
-### replaced GetMetaClassTableName\(ISessionFactory, List<Type\>\)
+###  GetMetaClassTableName\(ISessionFactory, List<Type\>\)
 
 used to fetch the table name of the types
 
@@ -77,7 +77,7 @@ public static List<string> GetMetaClassTableName(ISessionFactory session, List<T
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### replaced RegisterCustomTypes\(\)
+###  RegisterCustomTypes\(\)
 
 used to registering modified custom type
 
@@ -85,7 +85,7 @@ used to registering modified custom type
 public static void RegisterCustomTypes()
 ```
 
-### replaced Update\(\)
+###  Update\(\)
 
 used to update the registered custom NHibernate types
 

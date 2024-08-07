@@ -49,7 +49,7 @@ public class RunTimeCallContextHolder<T>
 
 ## Properties
 
-### replaced HoldingValue
+###  HoldingValue
 
 ```csharp
 public T HoldingValue { get; set; }

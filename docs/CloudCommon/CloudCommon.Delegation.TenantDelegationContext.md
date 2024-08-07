@@ -49,7 +49,7 @@ public class TenantDelegationContext : IDisposable
 
 ## Constructors
 
-### replaced TenantDelegationContext\(ITenantDelegationModel\)
+###  TenantDelegationContext\(ITenantDelegationModel\)
 
 initializing delegation context as system scope use only if http context is not available
 
@@ -69,7 +69,7 @@ public TenantDelegationContext(ITenantDelegationModel model)
 
 ## Methods
 
-### replaced Dispose\(\)
+###  Dispose\(\)
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
@@ -77,7 +77,7 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 public void Dispose()
 ```
 
-### replaced GetCurrentContext\(\)
+###  GetCurrentContext\(\)
 
 returns current context object specified in the thread local storage
 
@@ -93,7 +93,7 @@ public static TenantDelegationContext GetCurrentContext()
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### replaced GetModel\(\)
+###  GetModel\(\)
 
 ```csharp
 public ITenantDelegationModel GetModel()

@@ -39,7 +39,7 @@ public static class ProcessExtensions
 
 ## Methods
 
-### replaced Parent\(Process\)
+###  Parent\(Process\)
 
 ```csharp
 public static Process Parent(this Process process)

@@ -45,7 +45,7 @@ public class RandomUtil
 
 ## Methods
 
-### replaced GeneratePassword\(int\)
+###  GeneratePassword\(int\)
 
 ```csharp
 public static string GeneratePassword(int length)
@@ -59,7 +59,7 @@ public static string GeneratePassword(int length)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GeneratePasswordDontAllowSpecial\(int\)
+###  GeneratePasswordDontAllowSpecial\(int\)
 
 ```csharp
 public static string GeneratePasswordDontAllowSpecial(int length)
@@ -73,7 +73,7 @@ public static string GeneratePasswordDontAllowSpecial(int length)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GetRandomNumber\(int, int\)
+###  GetRandomNumber\(int, int\)
 
 ```csharp
 public static int GetRandomNumber(int maxValue = 12, int minValue = 12)
@@ -89,7 +89,7 @@ public static int GetRandomNumber(int maxValue = 12, int minValue = 12)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### replaced GetSecureRandomNumber\(int, int\)
+###  GetSecureRandomNumber\(int, int\)
 
 ```csharp
 public static int GetSecureRandomNumber(int maxValue = 12, int minValue = 12)
@@ -105,7 +105,7 @@ public static int GetSecureRandomNumber(int maxValue = 12, int minValue = 12)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### replaced Guid\(\)
+###  Guid\(\)
 
 ```csharp
 public static Guid Guid()
@@ -115,7 +115,7 @@ public static Guid Guid()
 
  [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
 
-### replaced GuidAsBase64\(\)
+###  GuidAsBase64\(\)
 
 ```csharp
 public static string GuidAsBase64()
@@ -125,7 +125,7 @@ public static string GuidAsBase64()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GuidAsString\(\)
+###  GuidAsString\(\)
 
 ```csharp
 public static string GuidAsString()

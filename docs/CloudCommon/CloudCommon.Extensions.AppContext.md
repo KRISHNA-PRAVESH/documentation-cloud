@@ -45,7 +45,7 @@ public class AppContext
 
 ## Constructors
 
-### replaced AppContext\(IAppSettings\)
+###  AppContext\(IAppSettings\)
 
 ```csharp
 public AppContext(IAppSettings settings)
@@ -57,7 +57,7 @@ public AppContext(IAppSettings settings)
 
 ## Methods
 
-### replaced AssignAppSettings<T\>\(\)
+###  AssignAppSettings<T\>\(\)
 
 ```csharp
 public static T AssignAppSettings<T>() where T : class
@@ -71,7 +71,7 @@ public static T AssignAppSettings<T>() where T : class
 
 `T` 
 
-### replaced AssignAppSettings<T\>\(string\)
+###  AssignAppSettings<T\>\(string\)
 
 ```csharp
 public static T AssignAppSettings<T>(string sectionName) where T : class
@@ -89,7 +89,7 @@ public static T AssignAppSettings<T>(string sectionName) where T : class
 
 `T` 
 
-### replaced GetAppSetting<T\>\(string\)
+###  GetAppSetting<T\>\(string\)
 
 ```csharp
 public static T GetAppSetting<T>(string name)
@@ -107,7 +107,7 @@ public static T GetAppSetting<T>(string name)
 
 `T` 
 
-### replaced GetAppSetting<T\>\(string, string\)
+###  GetAppSetting<T\>\(string, string\)
 
 ```csharp
 public static T GetAppSetting<T>(string name, string sectionName)
@@ -127,7 +127,7 @@ public static T GetAppSetting<T>(string name, string sectionName)
 
 `T` 
 
-### replaced GetConfigurationSettings\(\)
+###  GetConfigurationSettings\(\)
 
 ```csharp
 public static ConfigurationManager GetConfigurationSettings()

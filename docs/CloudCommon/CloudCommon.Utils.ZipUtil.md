@@ -45,7 +45,7 @@ public class ZipUtil
 
 ## Methods
 
-### replaced CopyTo\(Stream, Stream\)
+###  CopyTo\(Stream, Stream\)
 
 ```csharp
 public static void CopyTo(Stream src, Stream dest)
@@ -57,7 +57,7 @@ public static void CopyTo(Stream src, Stream dest)
 
 `dest` [Stream](https://learn.microsoft.com/dotnet/api/system.io.stream)
 
-### replaced Zip\(string\)
+###  Zip\(string\)
 
 ```csharp
 public static byte[] Zip(string str)
@@ -71,7 +71,7 @@ public static byte[] Zip(string str)
 
  [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
 
-### replaced unZip\(byte\[\]\)
+###  unZip\(byte\[\]\)
 
 ```csharp
 public static string unZip(byte[] bytes)

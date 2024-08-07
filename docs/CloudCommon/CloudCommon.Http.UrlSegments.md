@@ -51,7 +51,7 @@ public record UrlSegments : IEquatable<UrlSegments>
 
 ## Constructors
 
-### replaced UrlSegments\(List<string\>, List<string\>\)
+###  UrlSegments\(List<string\>, List<string\>\)
 
 used to registering the url segments for an api call
 
@@ -67,7 +67,7 @@ public UrlSegments(List<string> PathSegments, List<string> QueryParams)
 
 ## Properties
 
-### replaced PathSegments
+###  PathSegments
 
 ```csharp
 public List<string> PathSegments { get; init; }
@@ -77,7 +77,7 @@ public List<string> PathSegments { get; init; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### replaced QueryParams
+###  QueryParams
 
 ```csharp
 public List<string> QueryParams { get; init; }

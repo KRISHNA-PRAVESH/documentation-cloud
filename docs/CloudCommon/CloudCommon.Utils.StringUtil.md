@@ -39,7 +39,7 @@ public static class StringUtil
 
 ## Methods
 
-### replaced CamelCaseToSpaceSeparated\(string\)
+###  CamelCaseToSpaceSeparated\(string\)
 
 Returns the given string after separating the words by spaces.
 
@@ -55,7 +55,7 @@ public static string CamelCaseToSpaceSeparated(this string camelCaseInput)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced CamelCaseToUnderscroreCase\(string\)
+###  CamelCaseToUnderscroreCase\(string\)
 
 ```csharp
 public static string CamelCaseToUnderscroreCase(this string camelCaseInput)
@@ -69,7 +69,7 @@ public static string CamelCaseToUnderscroreCase(this string camelCaseInput)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced CharSeparatedToCamelCase\(string, char\)
+###  CharSeparatedToCamelCase\(string, char\)
 
 ```csharp
 public static string CharSeparatedToCamelCase(this string str, char ch)
@@ -85,7 +85,7 @@ public static string CharSeparatedToCamelCase(this string str, char ch)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced FirstCharToUpper\(string\)
+###  FirstCharToUpper\(string\)
 
 ```csharp
 public static string FirstCharToUpper(this string input)
@@ -99,7 +99,7 @@ public static string FirstCharToUpper(this string input)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced PascalCaseToSpaceSeparatedCase\(string, bool\)
+###  PascalCaseToSpaceSeparatedCase\(string, bool\)
 
 ```csharp
 public static string PascalCaseToSpaceSeparatedCase(this string value, bool makeLower = false)
@@ -115,7 +115,7 @@ public static string PascalCaseToSpaceSeparatedCase(this string value, bool make
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced ShortTextMessage\(List<string\>, string, int\)
+###  ShortTextMessage\(List<string\>, string, int\)
 
 ```csharp
 public static string ShortTextMessage(List<string> source, string separator = ",", int maxAllowedToDisplay = 3)
@@ -133,7 +133,7 @@ public static string ShortTextMessage(List<string> source, string separator = ",
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced UnderscoreToCamelCase\(string\)
+###  UnderscoreToCamelCase\(string\)
 
 ```csharp
 public static string UnderscoreToCamelCase(this string underScoreCase)

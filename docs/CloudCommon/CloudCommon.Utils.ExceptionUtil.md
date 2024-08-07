@@ -45,7 +45,7 @@ public class ExceptionUtil
 
 ## Methods
 
-### replaced JustTry<T\>\(Func<T\>, T\)
+###  JustTry<T\>\(Func<T\>, T\)
 
 ```csharp
 public static T JustTry<T>(Func<T> func, T defaultValue = default)
@@ -65,7 +65,7 @@ public static T JustTry<T>(Func<T> func, T defaultValue = default)
 
 `T` 
 
-### replaced JustTry\(Action\)
+###  JustTry\(Action\)
 
 ```csharp
 public static void JustTry(Action func)
@@ -75,7 +75,7 @@ public static void JustTry(Action func)
 
 `func` [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
-### replaced ThrowException\(string\)
+###  ThrowException\(string\)
 
 Throws a custom exception which implies that we have thrown the Exception on purpose.
 
@@ -87,7 +87,7 @@ public static void ThrowException(string message)
 
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced Try<T\>\(Func<T\>, T\)
+###  Try<T\>\(Func<T\>, T\)
 
 ```csharp
 public static T Try<T>(Func<T> func, T defaultValue = default)
@@ -107,7 +107,7 @@ public static T Try<T>(Func<T> func, T defaultValue = default)
 
 `T` 
 
-### replaced Try\(Action\)
+###  Try\(Action\)
 
 ```csharp
 public static void Try(Action func)

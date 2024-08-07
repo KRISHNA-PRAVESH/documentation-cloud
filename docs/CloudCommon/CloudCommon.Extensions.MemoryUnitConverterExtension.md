@@ -39,7 +39,7 @@ public static class MemoryUnitConverterExtension
 
 ## Methods
 
-### replaced ConvertByteToKbMbGbTb\(int, int\)
+###  ConvertByteToKbMbGbTb\(int, int\)
 
 ```csharp
 public static string ConvertByteToKbMbGbTb(this int value, int decimalPlaces = 0)
@@ -55,7 +55,7 @@ public static string ConvertByteToKbMbGbTb(this int value, int decimalPlaces = 0
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced ConvertByteToKbMbGbTb\(long, int\)
+###  ConvertByteToKbMbGbTb\(long, int\)
 
 ```csharp
 public static string ConvertByteToKbMbGbTb(this long value, int decimalPlaces = 0)
@@ -71,7 +71,7 @@ public static string ConvertByteToKbMbGbTb(this long value, int decimalPlaces = 
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced ConvertByteToMemoryUnitAndValue\(long, int\)
+###  ConvertByteToMemoryUnitAndValue\(long, int\)
 
 ```csharp
 public static KeyValuePair<MemoryUnitSize, double> ConvertByteToMemoryUnitAndValue(this long value, int decimalPlaces = 0)
@@ -87,7 +87,7 @@ public static KeyValuePair<MemoryUnitSize, double> ConvertByteToMemoryUnitAndVal
 
  [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<[MemoryUnitSize](CloudCommon.Extensions.MemoryUnitSize.md), [double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### replaced ConvertKbToMbGbTb\(long\)
+###  ConvertKbToMbGbTb\(long\)
 
 Used to update configuration such as postgreSql.conf
 
@@ -103,7 +103,7 @@ public static string ConvertKbToMbGbTb(this long value)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced ConvertMbToGbTb\(long, int\)
+###  ConvertMbToGbTb\(long, int\)
 
 ```csharp
 public static string ConvertMbToGbTb(this long value, int decimalPlaces = 0)
@@ -119,7 +119,7 @@ public static string ConvertMbToGbTb(this long value, int decimalPlaces = 0)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced ConvertToBytes\(double, MemoryUnitSize\)
+###  ConvertToBytes\(double, MemoryUnitSize\)
 
 ```csharp
 public static long ConvertToBytes(this double value, MemoryUnitSize valueUnit)
@@ -135,7 +135,7 @@ public static long ConvertToBytes(this double value, MemoryUnitSize valueUnit)
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### replaced ConvertToMemoryUnitSize\(int, MemoryUnitSize, int\)
+###  ConvertToMemoryUnitSize\(int, MemoryUnitSize, int\)
 
 ```csharp
 public static double ConvertToMemoryUnitSize(this int value, MemoryUnitSize unit, int decimalPlaces = 0)

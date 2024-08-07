@@ -51,7 +51,7 @@ public class HttpContextAccessorProxy : IHttpContextAccessor
 
 ## Properties
 
-### replaced HttpContext
+###  HttpContext
 
 current http context instance
 
@@ -65,7 +65,7 @@ public HttpContext? HttpContext { get; set; }
 
 ## Methods
 
-### replaced GetAppInstance\(\)
+###  GetAppInstance\(\)
 
 used to fetch the app instance id from http context accessor proxy
 
@@ -77,7 +77,7 @@ public static string GetAppInstance()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GetBaseAddress\(\)
+###  GetBaseAddress\(\)
 
 used to fetch the base address id from http context accessor proxy
 
@@ -89,7 +89,7 @@ public static string GetBaseAddress()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GetGlobalTenantId\(\)
+###  GetGlobalTenantId\(\)
 
 used to fetch the global tenant id from http context accessor proxy
 
@@ -101,7 +101,7 @@ public static string GetGlobalTenantId()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced LogicalGetData\(\)
+###  LogicalGetData\(\)
 
 used to fetch the current http context instance
 

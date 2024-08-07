@@ -39,7 +39,7 @@ public static class DecimalExtension
 
 ## Methods
 
-### replaced GetEnabledPosition\(int\)
+###  GetEnabledPosition\(int\)
 
 ```csharp
 public static IEnumerable<int> GetEnabledPosition(this int value)
@@ -53,7 +53,7 @@ public static IEnumerable<int> GetEnabledPosition(this int value)
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### replaced GetEnabledPosition\(long\)
+###  GetEnabledPosition\(long\)
 
 ```csharp
 public static IEnumerable<int> GetEnabledPosition(this long value)
@@ -67,7 +67,7 @@ public static IEnumerable<int> GetEnabledPosition(this long value)
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### replaced HasEnabledBit\(long, int\)
+###  HasEnabledBit\(long, int\)
 
 ```csharp
 public static bool HasEnabledBit(this long number, int bitPosition)
@@ -83,7 +83,7 @@ public static bool HasEnabledBit(this long number, int bitPosition)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced HasEnabledBit\(int, int\)
+###  HasEnabledBit\(int, int\)
 
 ```csharp
 public static bool HasEnabledBit(this int number, int bitPosition)

@@ -39,7 +39,7 @@ public static class TypeExtension
 
 ## Methods
 
-### replaced ConvertEnumToDictionary\(Type\)
+###  ConvertEnumToDictionary\(Type\)
 
 used convert enum to dictionary
 
@@ -59,7 +59,7 @@ public static Dictionary<string, object> ConvertEnumToDictionary(this Type type)
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### replaced GetMethod\(Type, string, bool\)
+###  GetMethod\(Type, string, bool\)
 
 ```csharp
 public static MethodInfo GetMethod(this Type type, string name, bool generic)

@@ -39,7 +39,7 @@ public static class ObjectUtil
 
 ## Methods
 
-### replaced ConvertToBinary\(object\)
+###  ConvertToBinary\(object\)
 
 ```csharp
 public static byte[] ConvertToBinary(this object data)
@@ -53,7 +53,7 @@ public static byte[] ConvertToBinary(this object data)
 
  [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
 
-### replaced ConvertToBinaryProtoBuf\(object\)
+###  ConvertToBinaryProtoBuf\(object\)
 
 ```csharp
 public static byte[] ConvertToBinaryProtoBuf(this object data)
@@ -67,7 +67,7 @@ public static byte[] ConvertToBinaryProtoBuf(this object data)
 
  [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
 
-### replaced ConvertToBinaryWithGZipCompression\(object\)
+###  ConvertToBinaryWithGZipCompression\(object\)
 
 ```csharp
 public static byte[] ConvertToBinaryWithGZipCompression(this object data)
@@ -81,7 +81,7 @@ public static byte[] ConvertToBinaryWithGZipCompression(this object data)
 
  [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
 
-### replaced ConvertToObject<T\>\(byte\[\]\)
+###  ConvertToObject<T\>\(byte\[\]\)
 
 ```csharp
 public static T ConvertToObject<T>(this byte[] data)
@@ -99,7 +99,7 @@ public static T ConvertToObject<T>(this byte[] data)
 
 `T` 
 
-### replaced ConvertToObject\(byte\[\], Type\)
+###  ConvertToObject\(byte\[\], Type\)
 
 ```csharp
 public static object ConvertToObject(this byte[] data, Type type)
@@ -115,7 +115,7 @@ public static object ConvertToObject(this byte[] data, Type type)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced ConvertToObjectProtoBuf<T\>\(byte\[\]\)
+###  ConvertToObjectProtoBuf<T\>\(byte\[\]\)
 
 ```csharp
 public static T ConvertToObjectProtoBuf<T>(this byte[] data)
@@ -133,7 +133,7 @@ public static T ConvertToObjectProtoBuf<T>(this byte[] data)
 
 `T` 
 
-### replaced ConvertToObjectWithUnGZipCompression<T\>\(object\)
+###  ConvertToObjectWithUnGZipCompression<T\>\(object\)
 
 ```csharp
 public static T ConvertToObjectWithUnGZipCompression<T>(this object data)

@@ -41,7 +41,7 @@ public static class HttpContextExtensions
 
 ## Methods
 
-### replaced GetBaseAddress\(HttpContext\)
+###  GetBaseAddress\(HttpContext\)
 
 used for fetch the app hosted address with header as x-base-address
 
@@ -57,7 +57,7 @@ public static string GetBaseAddress(this HttpContext context)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GetGlobalAppInstance\(HttpContext\)
+###  GetGlobalAppInstance\(HttpContext\)
 
 used for fetch the app hosted identifier with header as x-gloabal-app-instance
 
@@ -73,7 +73,7 @@ public static string GetGlobalAppInstance(this HttpContext context)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GetGlobalTenantId\(HttpContext\)
+###  GetGlobalTenantId\(HttpContext\)
 
 used for fetch the global tenant id with header as x-global-tenant-id
 

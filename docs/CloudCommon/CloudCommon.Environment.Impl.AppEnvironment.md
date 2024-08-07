@@ -50,7 +50,7 @@ public class AppEnvironment : IAppEnvironment, IDisposable
 
 ## Constructors
 
-### replaced AppEnvironment\(\)
+###  AppEnvironment\(\)
 
 ```csharp
 public AppEnvironment()
@@ -58,7 +58,7 @@ public AppEnvironment()
 
 ## Properties
 
-### replaced AllowedIps
+###  AllowedIps
 
 ```csharp
 public string AllowedIps { get; set; }
@@ -68,7 +68,7 @@ public string AllowedIps { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AppBaseUrl
+###  AppBaseUrl
 
 ```csharp
 public string AppBaseUrl { get; set; }
@@ -78,7 +78,7 @@ public string AppBaseUrl { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AppGivenName
+###  AppGivenName
 
 ```csharp
 public string AppGivenName { get; set; }
@@ -88,7 +88,7 @@ public string AppGivenName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AppId
+###  AppId
 
 ```csharp
 public string AppId { get; set; }
@@ -98,7 +98,7 @@ public string AppId { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AppName
+###  AppName
 
 ```csharp
 public string AppName { get; set; }
@@ -108,7 +108,7 @@ public string AppName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AppVersion
+###  AppVersion
 
 ```csharp
 public string AppVersion { get; set; }

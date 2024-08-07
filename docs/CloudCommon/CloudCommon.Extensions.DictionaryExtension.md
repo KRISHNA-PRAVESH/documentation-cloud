@@ -39,7 +39,7 @@ public static class DictionaryExtension
 
 ## Methods
 
-### replaced ContainsKeySafe<T, S\>\(Dictionary<T, S\>, T\)
+###  ContainsKeySafe<T, S\>\(Dictionary<T, S\>, T\)
 
 This method is Thread safe.
 
@@ -63,7 +63,7 @@ public static bool ContainsKeySafe<T, S>(this Dictionary<T, S> dictionary, T key
 
 `S` 
 
-### replaced GetCountSafe<T, S\>\(Dictionary<T, S\>\)
+###  GetCountSafe<T, S\>\(Dictionary<T, S\>\)
 
 This method is Thread safe.
 
@@ -85,7 +85,7 @@ public static int GetCountSafe<T, S>(this Dictionary<T, S> dictionary)
 
 `S` 
 
-### replaced GetSafe<T, S\>\(Dictionary<T, S\>, T\)
+###  GetSafe<T, S\>\(Dictionary<T, S\>, T\)
 
 This method is Thread safe.
 
@@ -109,7 +109,7 @@ public static S GetSafe<T, S>(this Dictionary<T, S> dictionary, T key)
 
 `S` 
 
-### replaced NotContainsKey<T, S\>\(Dictionary<T, S\>, T\)
+###  NotContainsKey<T, S\>\(Dictionary<T, S\>, T\)
 
 This method is Thread safe.
 
@@ -133,7 +133,7 @@ public static bool NotContainsKey<T, S>(this Dictionary<T, S> dictionary, T key)
 
 `S` 
 
-### replaced PartialMatch<T\>\(Dictionary<string, T\>, string\)
+###  PartialMatch<T\>\(Dictionary<string, T\>, string\)
 
 ```csharp
 public static IEnumerable<T> PartialMatch<T>(this Dictionary<string, T> dictionary, string partialKey)
@@ -153,7 +153,7 @@ public static IEnumerable<T> PartialMatch<T>(this Dictionary<string, T> dictiona
 
 `T` 
 
-### replaced RemoveSafe<T, S\>\(Dictionary<T, S\>, T\)
+###  RemoveSafe<T, S\>\(Dictionary<T, S\>, T\)
 
 This method is Thread safe.
 
@@ -177,7 +177,7 @@ public static bool RemoveSafe<T, S>(this Dictionary<T, S> dictionary, T key)
 
 `S` 
 
-### replaced SetSafe<T, S\>\(Dictionary<T, S\>, T, S\)
+###  SetSafe<T, S\>\(Dictionary<T, S\>, T, S\)
 
 This method is Thread safe.
 

@@ -47,7 +47,7 @@ public class FlurlClientRegistration
 
 ## Methods
 
-### replaced GetFlurlClientDefaults\(\)
+###  GetFlurlClientDefaults\(\)
 
 used to fetch the registered flurl client  defaults
 
@@ -59,7 +59,7 @@ public static FlurlDefaults GetFlurlClientDefaults()
 
  [FlurlDefaults](CloudCommon.Http.Flurl.Abstractions.FlurlDefaults.md)
 
-### replaced RegisterFlurlClient\(FlurlDefaults\)
+###  RegisterFlurlClient\(FlurlDefaults\)
 
 used to register flurl default params
 

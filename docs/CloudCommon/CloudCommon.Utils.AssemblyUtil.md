@@ -39,7 +39,7 @@ public static class AssemblyUtil
 
 ## Methods
 
-### replaced ChangeType<T\>\(object\)
+###  ChangeType<T\>\(object\)
 
 ```csharp
 public static T ChangeType<T>(this object val)
@@ -57,7 +57,7 @@ public static T ChangeType<T>(this object val)
 
 `T` 
 
-### replaced GetType\(string\)
+###  GetType\(string\)
 
 ```csharp
 public static Type GetType(string typeName)
@@ -71,7 +71,7 @@ public static Type GetType(string typeName)
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### replaced GetTypeWithFullName\(string\)
+###  GetTypeWithFullName\(string\)
 
 ```csharp
 public static Type GetTypeWithFullName(string fullName)

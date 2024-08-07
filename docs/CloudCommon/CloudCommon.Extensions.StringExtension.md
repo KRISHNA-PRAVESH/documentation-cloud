@@ -39,7 +39,7 @@ public static class StringExtension
 
 ## Methods
 
-### replaced CheckStartEnd\(string, string, string\)
+###  CheckStartEnd\(string, string, string\)
 
 ```csharp
 public static bool CheckStartEnd(this string str, string sStart, string sEnd)
@@ -57,7 +57,7 @@ public static bool CheckStartEnd(this string str, string sStart, string sEnd)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced CleanTruncatedJson\(string\)
+###  CleanTruncatedJson\(string\)
 
 ```csharp
 public static string CleanTruncatedJson(this string str)
@@ -71,7 +71,7 @@ public static string CleanTruncatedJson(this string str)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced Contains\(string, string, StringComparison\)
+###  Contains\(string, string, StringComparison\)
 
 ```csharp
 public static bool Contains(this string source, string toCheck, StringComparison comp)
@@ -89,7 +89,7 @@ public static bool Contains(this string source, string toCheck, StringComparison
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced DecodeBase64\(string\)
+###  DecodeBase64\(string\)
 
 ```csharp
 public static string DecodeBase64(this string encodedText)
@@ -103,7 +103,7 @@ public static string DecodeBase64(this string encodedText)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced DeserializeFromJson<T\>\(string\)
+###  DeserializeFromJson<T\>\(string\)
 
 ```csharp
 public static T DeserializeFromJson<T>(this string str)
@@ -121,7 +121,7 @@ public static T DeserializeFromJson<T>(this string str)
 
 `T` 
 
-### replaced DeserializeFromJsonUsingType\(string, Type\)
+###  DeserializeFromJsonUsingType\(string, Type\)
 
 ```csharp
 public static object DeserializeFromJsonUsingType(this string str, Type serializedType)
@@ -137,7 +137,7 @@ public static object DeserializeFromJsonUsingType(this string str, Type serializ
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced EncodeBase64\(string\)
+###  EncodeBase64\(string\)
 
 ```csharp
 public static string EncodeBase64(this string text)

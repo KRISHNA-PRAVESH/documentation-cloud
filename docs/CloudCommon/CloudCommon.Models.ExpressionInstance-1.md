@@ -51,7 +51,7 @@ public abstract class ExpressionInstance<T> where T : class
 
 ## Methods
 
-### replaced GetExpressions\(\)
+###  GetExpressions\(\)
 
 ```csharp
 public abstract IEnumerable<Expression<Func<T, object>>> GetExpressions()

@@ -30,7 +30,7 @@ public interface IDynamicScripts
 
 ## Methods
 
-### replaced Compute\(\)
+###  Compute\(\)
 
 ```csharp
 JavaScriptResult Compute()
@@ -40,7 +40,7 @@ JavaScriptResult Compute()
 
  [JavaScriptResult](CloudCommon.Models.JavaScriptResult.md)
 
-### replaced Get\(\)
+###  Get\(\)
 
 dynamically computes js script
 
@@ -52,7 +52,7 @@ Task<JavaScriptResult> Get()
 
  [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<[JavaScriptResult](CloudCommon.Models.JavaScriptResult.md)\>
 
-### replaced GetCss\(\)
+###  GetCss\(\)
 
 ```csharp
 CssResult GetCss()

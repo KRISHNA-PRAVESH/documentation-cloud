@@ -32,7 +32,7 @@ public interface IAzureEnvironment
 
 ## Properties
 
-### replaced AuthorityEndPoint
+###  AuthorityEndPoint
 
 ```csharp
 string AuthorityEndPoint { get; set; }
@@ -42,7 +42,7 @@ string AuthorityEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AuthorizeEndPoint
+###  AuthorizeEndPoint
 
 ```csharp
 string AuthorizeEndPoint { get; set; }
@@ -52,7 +52,7 @@ string AuthorizeEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AuthorizeEndPointV2
+###  AuthorizeEndPointV2
 
 ```csharp
 string AuthorizeEndPointV2 { get; set; }
@@ -62,7 +62,7 @@ string AuthorizeEndPointV2 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AzureApi
+###  AzureApi
 
 ```csharp
 string AzureApi { get; set; }
@@ -72,7 +72,7 @@ string AzureApi { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AzureEnvironmentLocation
+###  AzureEnvironmentLocation
 
 ```csharp
 AzureEnvironmentLocations AzureEnvironmentLocation { get; set; }
@@ -82,7 +82,7 @@ AzureEnvironmentLocations AzureEnvironmentLocation { get; set; }
 
  [AzureEnvironmentLocations](CloudCommon.Enums.AzureEnvironmentLocations.md)
 
-### replaced EnvironmentName
+###  EnvironmentName
 
 ```csharp
 string EnvironmentName { get; set; }
@@ -92,7 +92,7 @@ string EnvironmentName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced ExchangeManageEndPoint
+###  ExchangeManageEndPoint
 
 ```csharp
 string ExchangeManageEndPoint { get; set; }

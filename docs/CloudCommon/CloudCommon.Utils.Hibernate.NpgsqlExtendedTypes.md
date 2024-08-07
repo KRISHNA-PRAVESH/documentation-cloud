@@ -61,7 +61,7 @@ SqlType.ScaleDefined,
 
 ## Constructors
 
-### replaced NpgsqlExtendedTypes\(DbType, NpgsqlDbType\)
+###  NpgsqlExtendedTypes\(DbType, NpgsqlDbType\)
 
 ```csharp
 public NpgsqlExtendedTypes(DbType dbType, NpgsqlDbType npgDbType)
@@ -73,7 +73,7 @@ public NpgsqlExtendedTypes(DbType dbType, NpgsqlDbType npgDbType)
 
 `npgDbType` NpgsqlDbType
 
-### replaced NpgsqlExtendedTypes\(DbType, NpgsqlDbType, int\)
+###  NpgsqlExtendedTypes\(DbType, NpgsqlDbType, int\)
 
 ```csharp
 public NpgsqlExtendedTypes(DbType dbType, NpgsqlDbType npgDbType, int length)
@@ -87,7 +87,7 @@ public NpgsqlExtendedTypes(DbType dbType, NpgsqlDbType npgDbType, int length)
 
 `length` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### replaced NpgsqlExtendedTypes\(DbType, NpgsqlDbType, byte, byte\)
+###  NpgsqlExtendedTypes\(DbType, NpgsqlDbType, byte, byte\)
 
 ```csharp
 public NpgsqlExtendedTypes(DbType dbType, NpgsqlDbType npgDbType, byte precision, byte scale)
@@ -105,7 +105,7 @@ public NpgsqlExtendedTypes(DbType dbType, NpgsqlDbType npgDbType, byte precision
 
 ## Properties
 
-### replaced NpgDbType
+###  NpgDbType
 
 ```csharp
 public NpgsqlDbType NpgDbType { get; }

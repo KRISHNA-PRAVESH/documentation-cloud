@@ -79,7 +79,7 @@ DefaultContractResolver.NamingStrategy,
 
 ## Methods
 
-### replaced CreateProperty\(MemberInfo, MemberSerialization\)
+###  CreateProperty\(MemberInfo, MemberSerialization\)
 
 Creates a <xref href="Newtonsoft.Json.Serialization.JsonProperty" data-throw-if-not-resolved="false"></xref> for the given <xref href="System.Reflection.MemberInfo" data-throw-if-not-resolved="false"></xref>.
 

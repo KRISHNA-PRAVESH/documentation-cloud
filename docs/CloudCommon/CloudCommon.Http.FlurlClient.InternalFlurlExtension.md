@@ -39,7 +39,7 @@ public static class InternalFlurlExtension
 
 ## Methods
 
-### replaced AppendDefaultHeaders\(IFlurlRequest\)
+###  AppendDefaultHeaders\(IFlurlRequest\)
 
 used for append default headers in the Flurl.Url
 
@@ -55,7 +55,7 @@ public static IFlurlRequest AppendDefaultHeaders(this IFlurlRequest url)
 
  IFlurlRequest
 
-### replaced AppendOAuthHeader\(IFlurlRequest\)
+###  AppendOAuthHeader\(IFlurlRequest\)
 
 used for append OAuth access token fetched from the current delegation model
 
@@ -71,7 +71,7 @@ public static IFlurlRequest AppendOAuthHeader(this IFlurlRequest url)
 
  IFlurlRequest
 
-### replaced ComputeResponseAsync<T\>\(IFlurlResponse, bool\)
+###  ComputeResponseAsync<T\>\(IFlurlResponse, bool\)
 
 used to process the cpm response as Tuple data
 
@@ -93,7 +93,7 @@ public static Task<OneOf<ApiResponse, UnAuthorizedAccessError, InternalServerErr
 
 `T` 
 
-### replaced GetAndReturnResponse<T\>\(IFlurlRequest\)
+###  GetAndReturnResponse<T\>\(IFlurlRequest\)
 
 used to get data and compute it's return result as one of object
 
@@ -113,7 +113,7 @@ public static Task<OneOf<ApiResponse, UnAuthorizedAccessError, InternalServerErr
 
 `T` 
 
-### replaced GetSignature\(IFlurlResponse\)
+###  GetSignature\(IFlurlResponse\)
 
 used to fetch signature header named as "content-signature"
 
@@ -129,7 +129,7 @@ public static string GetSignature(this IFlurlResponse flurlResponse)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced PostAsByteArrayContentAndReturnResponse<T\>\(IFlurlRequest, object\)
+###  PostAsByteArrayContentAndReturnResponse<T\>\(IFlurlRequest, object\)
 
 used to post data as byte array and compute it's return result as one of object
 
@@ -151,7 +151,7 @@ public static Task<OneOf<ApiResponse, UnAuthorizedAccessError, InternalServerErr
 
 `T` 
 
-### replaced PosyAsByteArrayContent\(IFlurlRequest, object\)
+###  PosyAsByteArrayContent\(IFlurlRequest, object\)
 
 used for post data as byte array content
 

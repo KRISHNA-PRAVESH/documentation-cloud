@@ -39,7 +39,7 @@ public static class EnumerableExtension
 
 ## Methods
 
-### replaced IsNullOrEmpty<T\>\(IEnumerable<T\>\)
+###  IsNullOrEmpty<T\>\(IEnumerable<T\>\)
 
 ```csharp
 public static bool IsNullOrEmpty<T>(this IEnumerable<T> enumerable)
@@ -57,7 +57,7 @@ public static bool IsNullOrEmpty<T>(this IEnumerable<T> enumerable)
 
 `T` 
 
-### replaced NotNullAndHasAny<T\>\(IEnumerable<T\>\)
+###  NotNullAndHasAny<T\>\(IEnumerable<T\>\)
 
 ```csharp
 public static bool NotNullAndHasAny<T>(this IEnumerable<T> enumerable)

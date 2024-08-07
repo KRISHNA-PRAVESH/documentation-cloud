@@ -51,7 +51,7 @@ public class DataContext : IDisposable
 
 ## Constructors
 
-### replaced DataContext\(object\)
+###  DataContext\(object\)
 
 initialization of data context with object
 
@@ -65,7 +65,7 @@ public DataContext(object data)
 
 ## Methods
 
-### replaced Dispose\(\)
+###  Dispose\(\)
 
 it will set current thread data context object as nulls
 
@@ -77,7 +77,7 @@ public void Dispose()
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### replaced GetCurrentObject\(\)
+###  GetCurrentObject\(\)
 
 used to fetch the current object presents in the data context
 
@@ -89,7 +89,7 @@ public static DataContext GetCurrentObject()
 
  [DataContext](CloudCommon.Http.Context.DataContext.md)
 
-### replaced GetData<T\>\(\)
+###  GetData<T\>\(\)
 
 used to fetch data initialized with with data context
 
@@ -105,7 +105,7 @@ public T GetData<T>()
 
 `T` 
 
-### replaced GetData\(\)
+###  GetData\(\)
 
 used to fetch data initialized with with data context
 

@@ -39,7 +39,7 @@ public static class GenericExtension
 
 ## Methods
 
-### replaced As<T\>\(object\)
+###  As<T\>\(object\)
 
 This function creates the object of type T and copies the property values of source to that object and return it.
 It is mainly used for easily convert the parent type object to its child type
@@ -60,7 +60,7 @@ public static T As<T>(this object source)
 
 `T` 
 
-### replaced Clone<T\>\(T\)
+###  Clone<T\>\(T\)
 
 ```csharp
 public static T Clone<T>(T source)
@@ -78,7 +78,7 @@ public static T Clone<T>(T source)
 
 `T` 
 
-### replaced CloneByJson<T\>\(T\)
+###  CloneByJson<T\>\(T\)
 
 ```csharp
 public static T CloneByJson<T>(this T source)
@@ -96,7 +96,7 @@ public static T CloneByJson<T>(this T source)
 
 `T` 
 
-### replaced CloneByJsonUsingType\(object, Type\)
+###  CloneByJsonUsingType\(object, Type\)
 
 ```csharp
 public static object CloneByJsonUsingType(this object obj, Type objType)
@@ -112,7 +112,7 @@ public static object CloneByJsonUsingType(this object obj, Type objType)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced ContainsAnyOf\(string, params string\[\]\)
+###  ContainsAnyOf\(string, params string\[\]\)
 
 ```csharp
 public static bool ContainsAnyOf(this string source, params string[] list)
@@ -128,7 +128,7 @@ public static bool ContainsAnyOf(this string source, params string[] list)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced CopyPropertiesTo<T, U\>\(T, U\)
+###  CopyPropertiesTo<T, U\>\(T, U\)
 
 ```csharp
 public static void CopyPropertiesTo<T, U>(this T source, U destination)
@@ -146,7 +146,7 @@ public static void CopyPropertiesTo<T, U>(this T source, U destination)
 
 `U` 
 
-### replaced DeepCopy<T\>\(T\)
+###  DeepCopy<T\>\(T\)
 
 ```csharp
 public static T DeepCopy<T>(this T source)

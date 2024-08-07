@@ -30,7 +30,7 @@ public interface ITenantDelegationModel
 
 ## Properties
 
-### replaced UserData
+###  UserData
 
 ```csharp
 object UserData { get; set; }
@@ -40,7 +40,7 @@ object UserData { get; set; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced UserTenant
+###  UserTenant
 
 ```csharp
 string UserTenant { get; set; }

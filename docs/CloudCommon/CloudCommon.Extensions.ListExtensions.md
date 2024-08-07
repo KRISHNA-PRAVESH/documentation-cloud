@@ -39,7 +39,7 @@ public static class ListExtensions
 
 ## Methods
 
-### replaced AddMany<T\>\(List<T\>, params T\[\]\)
+###  AddMany<T\>\(List<T\>, params T\[\]\)
 
 ```csharp
 public static void AddMany<T>(this List<T> list, params T[] elements)
@@ -55,7 +55,7 @@ public static void AddMany<T>(this List<T> list, params T[] elements)
 
 `T` 
 
-### replaced ListEquals<T\>\(List<T\>, List<T\>\)
+###  ListEquals<T\>\(List<T\>, List<T\>\)
 
 ```csharp
 public static bool ListEquals<T>(this List<T> list, List<T> listToCompare)
@@ -75,7 +75,7 @@ public static bool ListEquals<T>(this List<T> list, List<T> listToCompare)
 
 `T` 
 
-### replaced RemoveDuplicates<T\>\(List<T\>\)
+###  RemoveDuplicates<T\>\(List<T\>\)
 
 Removes duplicate values in a list.
 

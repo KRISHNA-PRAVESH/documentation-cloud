@@ -45,7 +45,7 @@ public class MethodUtil
 
 ## Methods
 
-### replaced GetMethodInfo\(int\)
+###  GetMethodInfo\(int\)
 
 ```csharp
 public static string GetMethodInfo(int framePosition = 0)

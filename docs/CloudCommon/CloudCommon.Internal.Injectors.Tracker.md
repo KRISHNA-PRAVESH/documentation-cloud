@@ -45,7 +45,7 @@ public class Tracker
 
 ## Methods
 
-### replaced Inject\(Action<string, string, int?, string\>\)
+###  Inject\(Action<string, string, int?, string\>\)
 
 ```csharp
 public static bool Inject(Action<string, string, int?, string> update)
@@ -59,7 +59,7 @@ public static bool Inject(Action<string, string, int?, string> update)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced Update\(string, string, int?, string\)
+###  Update\(string, string, int?, string\)
 
 ```csharp
 public static void Update(string category, string action, int? value = null, string label = null)

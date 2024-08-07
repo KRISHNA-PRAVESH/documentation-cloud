@@ -49,7 +49,7 @@ public class ApiResponse : IDisposable
 
 ## Properties
 
-### replaced Data
+###  Data
 
 ```csharp
 public object Data { get; set; }
@@ -59,7 +59,7 @@ public object Data { get; set; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced Message
+###  Message
 
 ```csharp
 public string Message { get; set; }
@@ -69,7 +69,7 @@ public string Message { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced StatusCode
+###  StatusCode
 
 ```csharp
 public ApiResponseEnum StatusCode { get; set; }
@@ -81,7 +81,7 @@ public ApiResponseEnum StatusCode { get; set; }
 
 ## Methods
 
-### replaced CreateSuccessApiResponse\(object\)
+###  CreateSuccessApiResponse\(object\)
 
 ```csharp
 public static ApiResponse CreateSuccessApiResponse(object data)
@@ -95,7 +95,7 @@ public static ApiResponse CreateSuccessApiResponse(object data)
 
  [ApiResponse](CloudCommon.Utils.ApiResponse.md)
 
-### replaced CreateSuccessResponse\(object\)
+###  CreateSuccessResponse\(object\)
 
 ```csharp
 public static ApiResponse CreateSuccessResponse(object data)
@@ -109,7 +109,7 @@ public static ApiResponse CreateSuccessResponse(object data)
 
  [ApiResponse](CloudCommon.Utils.ApiResponse.md)
 
-### replaced CreateSuccessResponseAsObject\(object\)
+###  CreateSuccessResponseAsObject\(object\)
 
 ```csharp
 public static Tuple<ApiResponse, object> CreateSuccessResponseAsObject(object data)
@@ -123,7 +123,7 @@ public static Tuple<ApiResponse, object> CreateSuccessResponseAsObject(object da
 
  [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[ApiResponse](CloudCommon.Utils.ApiResponse.md), [object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
-### replaced CreateSuccessResponseForByte\(byte\[\]\)
+###  CreateSuccessResponseForByte\(byte\[\]\)
 
 ```csharp
 public static ApiResponse CreateSuccessResponseForByte(byte[] data)
