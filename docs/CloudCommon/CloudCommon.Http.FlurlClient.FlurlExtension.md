@@ -151,7 +151,7 @@ public static Url GetDirectoryClientFlurlUrl()
 
  Url
 
-### replaced GetDirectoryServicesFlurlUrl\(\)
+###  GetDirectoryServicesFlurlUrl\(\)
 
 used for fetch flurl url with path segment api/directory
 
@@ -163,7 +163,7 @@ public static Url GetDirectoryServicesFlurlUrl()
 
  Url
 
-### replaced GetDirectoryUserControlFlurlUrl\(\)
+###  GetDirectoryUserControlFlurlUrl\(\)
 
 ```csharp
 public static Url GetDirectoryUserControlFlurlUrl()
@@ -173,7 +173,7 @@ public static Url GetDirectoryUserControlFlurlUrl()
 
  Url
 
-### replaced GetPersistentFlurlUrl\(\)
+###  GetPersistentFlurlUrl\(\)
 
 used for fetch flurl url with path segment api/persistent
 

@@ -149,7 +149,7 @@ public static object CreateErrorResponse(Exception ex)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced CreateErrorResponseAsByte\(Exception\)
+###  CreateErrorResponseAsByte\(Exception\)
 
 used to fetch new server response as internal server error
 
@@ -167,7 +167,7 @@ public static byte[] CreateErrorResponseAsByte(Exception ex)
 
 ## Operators
 
-### replaced implicit operator byte\[\]\(ServerResponse<T\>\)
+###  implicit operator byte\[\]\(ServerResponse<T\>\)
 
 used to convert server response as byte
 

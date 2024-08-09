@@ -104,7 +104,7 @@ string AuthResponseUrl { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced DirectoryServerUrl
+###  DirectoryServerUrl
 
 ```csharp
 string DirectoryServerUrl { get; set; }
@@ -114,7 +114,7 @@ string DirectoryServerUrl { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GlobalAppId
+###  GlobalAppId
 
 ```csharp
 string GlobalAppId { get; set; }
@@ -124,7 +124,7 @@ string GlobalAppId { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced OAuthFlowRequired
+###  OAuthFlowRequired
 
 ```csharp
 string OAuthFlowRequired { get; set; }
@@ -134,7 +134,7 @@ string OAuthFlowRequired { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced PersistentDllName
+###  PersistentDllName
 
 ```csharp
 string PersistentDllName { get; set; }
@@ -144,7 +144,7 @@ string PersistentDllName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced Persistor
+###  Persistor
 
 ```csharp
 bool Persistor { get; set; }
@@ -154,7 +154,7 @@ bool Persistor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced SchemaUrl
+###  SchemaUrl
 
 ```csharp
 string SchemaUrl { get; set; }

@@ -118,7 +118,7 @@ public string AppVersion { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced AuthResponseUrl
+###  AuthResponseUrl
 
 ```csharp
 public string AuthResponseUrl { get; set; }
@@ -128,7 +128,7 @@ public string AuthResponseUrl { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced DirectoryServerUrl
+###  DirectoryServerUrl
 
 ```csharp
 public string DirectoryServerUrl { get; set; }
@@ -138,7 +138,7 @@ public string DirectoryServerUrl { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GlobalAppId
+###  GlobalAppId
 
 ```csharp
 public string GlobalAppId { get; set; }
@@ -148,7 +148,7 @@ public string GlobalAppId { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced OAuthFlowRequired
+###  OAuthFlowRequired
 
 ```csharp
 public string OAuthFlowRequired { get; set; }
@@ -158,7 +158,7 @@ public string OAuthFlowRequired { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced PersistentDllName
+###  PersistentDllName
 
 ```csharp
 public string PersistentDllName { get; set; }
@@ -168,7 +168,7 @@ public string PersistentDllName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced Persistor
+###  Persistor
 
 ```csharp
 public bool Persistor { get; set; }
@@ -178,7 +178,7 @@ public bool Persistor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced SchemaUrl
+###  SchemaUrl
 
 ```csharp
 public string SchemaUrl { get; set; }
@@ -190,7 +190,7 @@ public string SchemaUrl { get; set; }
 
 ## Methods
 
-### replaced Dispose\(bool\)
+###  Dispose\(bool\)
 
 ```csharp
 protected virtual void Dispose(bool isDisposing)
@@ -200,7 +200,7 @@ protected virtual void Dispose(bool isDisposing)
 
 `isDisposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced Dispose\(\)
+###  Dispose\(\)
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
@@ -208,7 +208,7 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 public void Dispose()
 ```
 
-### replaced \~AppEnvironment\(\)
+###  \~AppEnvironment\(\)
 
 ```csharp
 protected ~AppEnvironment()

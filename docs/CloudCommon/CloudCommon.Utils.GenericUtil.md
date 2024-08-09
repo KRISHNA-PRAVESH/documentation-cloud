@@ -207,7 +207,7 @@ public static object InvokeGenericMethod(MethodInfo methodInfo, Type genericType
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced InvokeStaticGenericMethod\(MethodInfo, Type, params object\[\]\)
+###  InvokeStaticGenericMethod\(MethodInfo, Type, params object\[\]\)
 
 ```csharp
 public static object InvokeStaticGenericMethod(MethodInfo methodInfo, Type genericType, params object[] parameters)

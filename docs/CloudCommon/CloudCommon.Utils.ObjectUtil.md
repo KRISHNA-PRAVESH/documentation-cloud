@@ -151,7 +151,7 @@ public static T ConvertToObjectWithUnGZipCompression<T>(this object data)
 
 `T` 
 
-### replaced ConvertToObjectWithUnGZipCompression\(object, Type\)
+###  ConvertToObjectWithUnGZipCompression\(object, Type\)
 
 ```csharp
 public static object ConvertToObjectWithUnGZipCompression(this object data, Type type)
@@ -167,7 +167,7 @@ public static object ConvertToObjectWithUnGZipCompression(this object data, Type
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced DeepCopy<T\>\(T\)
+###  DeepCopy<T\>\(T\)
 
 ```csharp
 public static T DeepCopy<T>(T source)
@@ -185,7 +185,7 @@ public static T DeepCopy<T>(T source)
 
 `T` 
 
-### replaced DeserializeUsingUTF8JSON<T\>\(byte\[\]\)
+###  DeserializeUsingUTF8JSON<T\>\(byte\[\]\)
 
 ```csharp
 public static T DeserializeUsingUTF8JSON<T>(this byte[] byteData)
@@ -203,7 +203,7 @@ public static T DeserializeUsingUTF8JSON<T>(this byte[] byteData)
 
 `T` 
 
-### replaced DeserializeUsingUTF8JSON\(byte\[\], Type\)
+###  DeserializeUsingUTF8JSON\(byte\[\], Type\)
 
 ```csharp
 public static object DeserializeUsingUTF8JSON(this byte[] byteData, Type type)
@@ -219,7 +219,7 @@ public static object DeserializeUsingUTF8JSON(this byte[] byteData, Type type)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced DeserializeUsingUTF8JSONWithStream<T\>\(Stream\)
+###  DeserializeUsingUTF8JSONWithStream<T\>\(Stream\)
 
 ```csharp
 public static T DeserializeUsingUTF8JSONWithStream<T>(this Stream streamData)
@@ -237,7 +237,7 @@ public static T DeserializeUsingUTF8JSONWithStream<T>(this Stream streamData)
 
 `T` 
 
-### replaced DeserializeUsingUTF8JSONWithStream\(Stream, Type\)
+###  DeserializeUsingUTF8JSONWithStream\(Stream, Type\)
 
 ```csharp
 public static object DeserializeUsingUTF8JSONWithStream(this Stream streamData, Type type)
@@ -253,7 +253,7 @@ public static object DeserializeUsingUTF8JSONWithStream(this Stream streamData, 
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### replaced DeserializeWithProtoBuf<T\>\(byte\[\]\)
+###  DeserializeWithProtoBuf<T\>\(byte\[\]\)
 
 ```csharp
 public static T DeserializeWithProtoBuf<T>(this byte[] data)
@@ -271,7 +271,7 @@ public static T DeserializeWithProtoBuf<T>(this byte[] data)
 
 `T` 
 
-### replaced GetType\(string\)
+###  GetType\(string\)
 
 ```csharp
 public static Type GetType(string typeName)
@@ -285,7 +285,7 @@ public static Type GetType(string typeName)
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### replaced IsEqual\(object, object\)
+###  IsEqual\(object, object\)
 
 ```csharp
 public static bool IsEqual(object object1, object object2)
@@ -301,7 +301,7 @@ public static bool IsEqual(object object1, object object2)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced SerializeUsingUTF8JSON\(object\)
+###  SerializeUsingUTF8JSON\(object\)
 
 ```csharp
 public static byte[] SerializeUsingUTF8JSON(this object data)

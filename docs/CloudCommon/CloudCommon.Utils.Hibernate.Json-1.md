@@ -170,7 +170,7 @@ The object to be cached.
 
 A cacheable representation of the object.
 
-### replaced Equals\(object, object\)
+###  Equals\(object, object\)
 
 Compare two instances of the class mapped by this type for persistent "equality"
 ie. equality of persistent state
@@ -189,7 +189,7 @@ public bool Equals(object x, object y)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced GetHashCode\(object\)
+###  GetHashCode\(object\)
 
 Get a hashcode for the instance, consistent with persistence "equality"
 
@@ -205,7 +205,7 @@ public int GetHashCode(object x)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### replaced NullSafeGet\(DbDataReader, string\[\], ISessionImplementor, object\)
+###  NullSafeGet\(DbDataReader, string\[\], ISessionImplementor, object\)
 
 Retrieve an instance of the mapped class from an ADO resultset.
 Implementors should handle possibility of null values.
@@ -246,7 +246,7 @@ The value.
 
 HibernateException
 
-### replaced NullSafeSet\(DbCommand, object, int, ISessionImplementor\)
+###  NullSafeSet\(DbCommand, object, int, ISessionImplementor\)
 
 Write an instance of the mapped class to a prepared statement.
 Implementors should handle possibility of null values.
@@ -282,7 +282,7 @@ The session for which the operation is done. Allows access to
 
 HibernateException
 
-### replaced Replace\(object, object, object\)
+###  Replace\(object, object, object\)
 
 During merge, replace the existing (<code class="paramref">target</code>) value in the entity
 we are merging to with a new (<code class="paramref">original</code>) value from the detached

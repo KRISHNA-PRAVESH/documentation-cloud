@@ -151,7 +151,7 @@ public static string EncodeBase64(this string text)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced FirstCharacterToLower\(string\)
+###  FirstCharacterToLower\(string\)
 
 ```csharp
 public static string FirstCharacterToLower(this string str)
@@ -165,7 +165,7 @@ public static string FirstCharacterToLower(this string str)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced FirstCharacterToUpper\(string\)
+###  FirstCharacterToUpper\(string\)
 
 ```csharp
 public static string FirstCharacterToUpper(this string str)
@@ -179,7 +179,7 @@ public static string FirstCharacterToUpper(this string str)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced FormatWith\(string, params object\[\]\)
+###  FormatWith\(string, params object\[\]\)
 
 ```csharp
 public static string FormatWith(this string s, params object[] args)
@@ -195,7 +195,7 @@ public static string FormatWith(this string s, params object[] args)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GetUserTenant\(string\)
+###  GetUserTenant\(string\)
 
 ```csharp
 public static string GetUserTenant(this string user)
@@ -209,7 +209,7 @@ public static string GetUserTenant(this string user)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced HandleDeserializationError\(object, ErrorEventArgs\)
+###  HandleDeserializationError\(object, ErrorEventArgs\)
 
 ```csharp
 public static void HandleDeserializationError(object sender, ErrorEventArgs errorArgs)
@@ -221,7 +221,7 @@ public static void HandleDeserializationError(object sender, ErrorEventArgs erro
 
 `errorArgs` ErrorEventArgs
 
-### replaced IsNullOrEmpty\(string\)
+###  IsNullOrEmpty\(string\)
 
 ```csharp
 public static bool IsNullOrEmpty(this string str)
@@ -235,13 +235,13 @@ public static bool IsNullOrEmpty(this string str)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced SetDebugMode\(\)
+###  SetDebugMode\(\)
 
 ```csharp
 public static void SetDebugMode()
 ```
 
-### replaced SplitCompare\(string, string\)
+###  SplitCompare\(string, string\)
 
 ```csharp
 public static bool SplitCompare(this string val, string compare)
@@ -257,7 +257,7 @@ public static bool SplitCompare(this string val, string compare)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced StartsWithAnyOf\(string, params string\[\]\)
+###  StartsWithAnyOf\(string, params string\[\]\)
 
 ```csharp
 public static bool StartsWithAnyOf(this string source, params string[] list)
@@ -273,7 +273,7 @@ public static bool StartsWithAnyOf(this string source, params string[] list)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced ToSecureString\(string\)
+###  ToSecureString\(string\)
 
 ```csharp
 public static SecureString ToSecureString(this string plainString)

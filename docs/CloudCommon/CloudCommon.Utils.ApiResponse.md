@@ -137,7 +137,7 @@ public static ApiResponse CreateSuccessResponseForByte(byte[] data)
 
  [ApiResponse](CloudCommon.Utils.ApiResponse.md)
 
-### replaced Dispose\(bool\)
+###  Dispose\(bool\)
 
 ```csharp
 protected virtual void Dispose(bool disposing)
@@ -147,7 +147,7 @@ protected virtual void Dispose(bool disposing)
 
 `disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced Dispose\(\)
+###  Dispose\(\)
 
 Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
@@ -155,7 +155,7 @@ Performs application-defined tasks associated with freeing, releasing, or resett
 public void Dispose()
 ```
 
-### replaced Error\(string\)
+###  Error\(string\)
 
 ```csharp
 public static ApiResponse Error(string message)
@@ -169,13 +169,13 @@ public static ApiResponse Error(string message)
 
  [ApiResponse](CloudCommon.Utils.ApiResponse.md)
 
-### replaced \~ApiResponse\(\)
+###  \~ApiResponse\(\)
 
 ```csharp
 protected ~ApiResponse()
 ```
 
-### replaced ParamsMissingOrBadRequest\(string\)
+###  ParamsMissingOrBadRequest\(string\)
 
 ```csharp
 public static ApiResponse ParamsMissingOrBadRequest(string message)
@@ -189,7 +189,7 @@ public static ApiResponse ParamsMissingOrBadRequest(string message)
 
  [ApiResponse](CloudCommon.Utils.ApiResponse.md)
 
-### replaced Success\(object, string\)
+###  Success\(object, string\)
 
 ```csharp
 public static ApiResponse Success(object data, string message)
@@ -205,7 +205,7 @@ public static ApiResponse Success(object data, string message)
 
  [ApiResponse](CloudCommon.Utils.ApiResponse.md)
 
-### replaced UnAuthorizedRequest\(string\)
+###  UnAuthorizedRequest\(string\)
 
 ```csharp
 public static ApiResponse UnAuthorizedRequest(string message)

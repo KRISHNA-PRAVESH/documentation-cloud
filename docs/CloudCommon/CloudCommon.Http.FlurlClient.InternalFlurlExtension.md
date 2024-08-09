@@ -169,7 +169,7 @@ public static Task<IFlurlResponse> PosyAsByteArrayContent(this IFlurlRequest flu
 
  [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task\-1)<IFlurlResponse\>
 
-### replaced VerifySignature\(IFlurlResponse, object\)
+###  VerifySignature\(IFlurlResponse, object\)
 
 used to verify the signature matches the current object
 
@@ -187,7 +187,7 @@ public static bool VerifySignature(this IFlurlResponse flurlResponse, object dat
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### replaced WaitAndGetResult<T\>\(Task<T\>\)
+###  WaitAndGetResult<T\>\(Task<T\>\)
 
 used for return result form the task
 

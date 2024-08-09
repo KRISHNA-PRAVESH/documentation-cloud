@@ -116,7 +116,7 @@ public virtual Tuple<string, string> ResultTransformerTypes { get; set; }
 
  [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### replaced RootEntity
+###  RootEntity
 
 ```csharp
 public virtual string RootEntity { get; set; }

@@ -119,7 +119,7 @@ public string ExchangeManageEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GraphEndPoint
+###  GraphEndPoint
 
 ```csharp
 public string GraphEndPoint { get; set; }
@@ -129,7 +129,7 @@ public string GraphEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced LoginEndPoint
+###  LoginEndPoint
 
 ```csharp
 public string LoginEndPoint { get; set; }
@@ -139,7 +139,7 @@ public string LoginEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced MicrosoftGraphEndPoint
+###  MicrosoftGraphEndPoint
 
 ```csharp
 public string MicrosoftGraphEndPoint { get; set; }
@@ -149,7 +149,7 @@ public string MicrosoftGraphEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced Office365SignoutEndPoint
+###  Office365SignoutEndPoint
 
 ```csharp
 public string Office365SignoutEndPoint { get; set; }
@@ -159,7 +159,7 @@ public string Office365SignoutEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced Office365SignoutEndPointV2
+###  Office365SignoutEndPointV2
 
 ```csharp
 public string Office365SignoutEndPointV2 { get; set; }
@@ -169,7 +169,7 @@ public string Office365SignoutEndPointV2 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced OutlookEndPoint
+###  OutlookEndPoint
 
 ```csharp
 public string OutlookEndPoint { get; set; }
@@ -179,7 +179,7 @@ public string OutlookEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced SendMailByGraphEndPoint
+###  SendMailByGraphEndPoint
 
 ```csharp
 public string SendMailByGraphEndPoint { get; set; }
@@ -189,7 +189,7 @@ public string SendMailByGraphEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced TokenEndPoint
+###  TokenEndPoint
 
 ```csharp
 public string TokenEndPoint { get; set; }
@@ -199,7 +199,7 @@ public string TokenEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced TokenEndPointV2
+###  TokenEndPointV2
 
 ```csharp
 public string TokenEndPointV2 { get; set; }
@@ -211,7 +211,7 @@ public string TokenEndPointV2 { get; set; }
 
 ## Methods
 
-### replaced GetEnvironment\(AzureEnvironmentLocations\)
+###  GetEnvironment\(AzureEnvironmentLocations\)
 
 ```csharp
 public static IAzureEnvironment GetEnvironment(AzureEnvironmentLocations azureEnvironmentLocation)

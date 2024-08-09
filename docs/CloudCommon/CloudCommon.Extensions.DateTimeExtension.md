@@ -143,7 +143,7 @@ public static string ToHH_MM(this DateTime dateTime)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced ToHH\_MM\_TT\(DateTime\)
+###  ToHH\_MM\_TT\(DateTime\)
 
 ```csharp
 public static string ToHH_MM_TT(this DateTime dateTime)
@@ -157,7 +157,7 @@ public static string ToHH_MM_TT(this DateTime dateTime)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced ToMMM\_DD\_YYYY\(DateTime\)
+###  ToMMM\_DD\_YYYY\(DateTime\)
 
 ```csharp
 public static string ToMMM_DD_YYYY(this DateTime dateTime)
@@ -171,7 +171,7 @@ public static string ToMMM_DD_YYYY(this DateTime dateTime)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced WeekOfMonth\(DateTime\)
+###  WeekOfMonth\(DateTime\)
 
 ```csharp
 public static int WeekOfMonth(this DateTime date)

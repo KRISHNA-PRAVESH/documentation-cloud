@@ -117,7 +117,7 @@ public static readonly RetryPolicy retryOnceOnError
 
 ## Methods
 
-### replaced GetAsyncPolicyWithPredicate<T\>\(Func<T, bool\>, int, TimeSpan\)
+###  GetAsyncPolicyWithPredicate<T\>\(Func<T, bool\>, int, TimeSpan\)
 
 it will retry when the exception conditions are matched
 

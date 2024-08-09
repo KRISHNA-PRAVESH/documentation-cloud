@@ -203,7 +203,7 @@ public static object SetSafe<T, S>(this Dictionary<T, S> dictionary, T key, S va
 
 `S` 
 
-### replaced StartsWithMatch<T\>\(Dictionary<string, T\>, string\)
+###  StartsWithMatch<T\>\(Dictionary<string, T\>, string\)
 
 ```csharp
 public static IEnumerable<T> StartsWithMatch<T>(this Dictionary<string, T> dictionary, string partialKey)

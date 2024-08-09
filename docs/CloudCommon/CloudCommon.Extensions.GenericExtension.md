@@ -164,7 +164,7 @@ public static T DeepCopy<T>(this T source)
 
 `T` 
 
-### replaced EqualsAnyOf<T\>\(T, params T\[\]\)
+###  EqualsAnyOf<T\>\(T, params T\[\]\)
 
 ```csharp
 public static bool EqualsAnyOf<T>(this T source, params T[] list)
@@ -184,7 +184,7 @@ public static bool EqualsAnyOf<T>(this T source, params T[] list)
 
 `T` 
 
-### replaced ToSerializedJsonString<T\>\(T, bool\)
+###  ToSerializedJsonString<T\>\(T, bool\)
 
 ```csharp
 public static string ToSerializedJsonString<T>(this T source, bool formatOutput = false)

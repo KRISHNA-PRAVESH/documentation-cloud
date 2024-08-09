@@ -153,7 +153,7 @@ public static double ConvertToMemoryUnitSize(this int value, MemoryUnitSize unit
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### replaced ConvertToMemoryUnitSize\(long, MemoryUnitSize, int\)
+###  ConvertToMemoryUnitSize\(long, MemoryUnitSize, int\)
 
 ```csharp
 public static double ConvertToMemoryUnitSize(this long value, MemoryUnitSize unit, int decimalPlaces = 0)
@@ -171,7 +171,7 @@ public static double ConvertToMemoryUnitSize(this long value, MemoryUnitSize uni
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### replaced ConvertToMemoryUnitSize\(double, MemoryUnitSize, int\)
+###  ConvertToMemoryUnitSize\(double, MemoryUnitSize, int\)
 
 ```csharp
 public static double ConvertToMemoryUnitSize(this double value, MemoryUnitSize unit, int decimalPlaces = 0)
@@ -189,7 +189,7 @@ public static double ConvertToMemoryUnitSize(this double value, MemoryUnitSize u
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### replaced GetMemoryUnitString\(MemoryUnitSize\)
+###  GetMemoryUnitString\(MemoryUnitSize\)
 
 ```csharp
 public static string GetMemoryUnitString(this MemoryUnitSize unit)

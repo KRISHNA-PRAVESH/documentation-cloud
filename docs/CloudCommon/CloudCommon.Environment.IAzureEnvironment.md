@@ -102,7 +102,7 @@ string ExchangeManageEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced GraphEndPoint
+###  GraphEndPoint
 
 ```csharp
 string GraphEndPoint { get; set; }
@@ -112,7 +112,7 @@ string GraphEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced LoginEndPoint
+###  LoginEndPoint
 
 ```csharp
 string LoginEndPoint { get; set; }
@@ -122,7 +122,7 @@ string LoginEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced MicrosoftGraphEndPoint
+###  MicrosoftGraphEndPoint
 
 ```csharp
 string MicrosoftGraphEndPoint { get; set; }
@@ -132,7 +132,7 @@ string MicrosoftGraphEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced Office365SignoutEndPoint
+###  Office365SignoutEndPoint
 
 ```csharp
 string Office365SignoutEndPoint { get; set; }
@@ -142,7 +142,7 @@ string Office365SignoutEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced Office365SignoutEndPointV2
+###  Office365SignoutEndPointV2
 
 ```csharp
 string Office365SignoutEndPointV2 { get; set; }
@@ -152,7 +152,7 @@ string Office365SignoutEndPointV2 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced OutlookEndPoint
+###  OutlookEndPoint
 
 ```csharp
 string OutlookEndPoint { get; set; }
@@ -162,7 +162,7 @@ string OutlookEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced SendMailByGraphEndPoint
+###  SendMailByGraphEndPoint
 
 ```csharp
 string SendMailByGraphEndPoint { get; set; }
@@ -172,7 +172,7 @@ string SendMailByGraphEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced TokenEndPoint
+###  TokenEndPoint
 
 ```csharp
 string TokenEndPoint { get; set; }
@@ -182,7 +182,7 @@ string TokenEndPoint { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### replaced TokenEndPointV2
+###  TokenEndPointV2
 
 ```csharp
 string TokenEndPointV2 { get; set; }
